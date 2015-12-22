@@ -73,15 +73,15 @@ class ScanTableViewController: UITableViewController {
                     hud.hide(true, afterDelay: 2.0)
                 } else {
                     hud.hide(true)
-                    selected.led?.flashLEDColor(UIColor.greenColor(), withIntensity: 1.0)
+                    selected.led?.flashLEDColorAsync(UIColor.greenColor(), withIntensity: 1.0)
                     
                     let alert = UIAlertController(title: "Confirm Device", message: "Do you see a blinking green LED on the MetaWear", preferredStyle: UIAlertControllerStyle.Alert)
                     alert.addAction(UIAlertAction(title: "No", style: .Cancel, handler: { (action: UIAlertAction) -> Void in
-                        selected.led?.setLEDOn(false, withOptions: 1)
+                        selected.led?.setLEDOnAsync(false, withOptions: 1)
                         selected.disconnectWithHandler(nil)
                     }))
                     alert.addAction(UIAlertAction(title: "Yes!", style: .Default, handler: { (action: UIAlertAction) -> Void in
-                        selected.led?.setLEDOn(false, withOptions: 1)
+                        selected.led?.setLEDOnAsync(false, withOptions: 1)
                         selected.disconnectWithHandler(nil)
                         if let delegate = self.delegate {
                             delegate.scanTableViewController(self, didSelectDevice: selected)

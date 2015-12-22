@@ -7,17 +7,42 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		221053591BFBCAC1D8878B53B2880B88 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6E093D627869B650AB8D6411D2DE6B7A /* Foundation.framework */; };
+		124DAFBBD0BC0BED3A84A8BCDDE99EAA /* BFCancellationToken.m in Sources */ = {isa = PBXBuildFile; fileRef = 5C50FC1B3F7A06C177F60B46AE3EABC5 /* BFCancellationToken.m */; };
+		15B84D9DC29C600B893F6B0E7638C77A /* BFExecutor.m in Sources */ = {isa = PBXBuildFile; fileRef = 5AAADB1B939A9476611E5AB676D2FCA5 /* BFExecutor.m */; };
 		2989492A1A182744E36FD61DF1746D94 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6E093D627869B650AB8D6411D2DE6B7A /* Foundation.framework */; };
-		5EB4F27B76513AE918BA5AE0868E87C8 /* MBProgressHUD.h in Headers */ = {isa = PBXBuildFile; fileRef = 0ADF4AC09618308EB1918954A4032FB4 /* MBProgressHUD.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		30C5834D63F7306117A1AABDD346E4A3 /* BoltsVersion.h in Headers */ = {isa = PBXBuildFile; fileRef = BC533CE747164050A1616A80B4962427 /* BoltsVersion.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		30F2C86135C9CD07155D145D5DBA6A09 /* Bolts-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = D4149B07B0BE45403582E4BE0032D226 /* Bolts-dummy.m */; };
+		3CD61DBFB477136036562101303D7456 /* Pods-SwiftStarter-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = CAC0A468214DD16277A459DB003C7463 /* Pods-SwiftStarter-dummy.m */; };
+		566A7AC6D79333623B7F77A4501CFE63 /* BFCancellationTokenSource.h in Headers */ = {isa = PBXBuildFile; fileRef = CE3B138E1C54A403D713D864FA0F8773 /* BFCancellationTokenSource.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5EB4F27B76513AE918BA5AE0868E87C8 /* MBProgressHUD.h in Headers */ = {isa = PBXBuildFile; fileRef = FD0869565E72DAB375C4123EA40F3A2B /* MBProgressHUD.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6F2BD02BE2A70F04A0E14F74FCF951E7 /* BFCancellationTokenRegistration.m in Sources */ = {isa = PBXBuildFile; fileRef = E03ABF20F8F07E467B3CB9D60A60A079 /* BFCancellationTokenRegistration.m */; };
 		70D801E0B95C23BCC270E4EC8659D463 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1264325C4220C1BDC3C73E5D496129FD /* CoreGraphics.framework */; };
-		82FC12F67E83874B93592218E9FB4CA0 /* MBProgressHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F6316D9933712399AE9A292D7B63666 /* MBProgressHUD.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
-		B127426BEADAD6A1267E4ECEFB8531AC /* Pods-SwiftStarter-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = CAC0A468214DD16277A459DB003C7463 /* Pods-SwiftStarter-dummy.m */; };
-		FC214077677D4F02E03C6C85F774E028 /* MBProgressHUD-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 1383DE1BDA6C458CD64DD6B5CEABA3C3 /* MBProgressHUD-dummy.m */; };
+		75042006A0F95C76E1B185CCEE6658DA /* BFTask.h in Headers */ = {isa = PBXBuildFile; fileRef = 3BEF81CC1FCEF7517AE4C9B790FA81D0 /* BFTask.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8171D90C762985147762FEF042529624 /* BFCancellationToken.h in Headers */ = {isa = PBXBuildFile; fileRef = EBBDF7FF1C9C3D56558408863A4BE4AB /* BFCancellationToken.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		827C558B15971ED44576C761940FC539 /* BFTask.m in Sources */ = {isa = PBXBuildFile; fileRef = 68ABA6E24894B0920226726D1C3AA794 /* BFTask.m */; };
+		82FC12F67E83874B93592218E9FB4CA0 /* MBProgressHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = 663F0BD63DA4421447EBA81C44E9EFD3 /* MBProgressHUD.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		899B962A9C38D5A4D25EFDF457C0F480 /* BFTaskCompletionSource.h in Headers */ = {isa = PBXBuildFile; fileRef = 3F6AA283B454AE81E511AF5AAFE00BE5 /* BFTaskCompletionSource.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A3760DED8C87382D3907D94384F2EE4C /* Bolts.m in Sources */ = {isa = PBXBuildFile; fileRef = 52E2BEB0705A45D5D08D3560C28DF915 /* Bolts.m */; };
+		A9793B08738CED7C0AEDB24BB07A673B /* BFCancellationTokenRegistration.h in Headers */ = {isa = PBXBuildFile; fileRef = 5D62D6DAEBB2A89033C4DF03EDEC3012 /* BFCancellationTokenRegistration.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AAF6965E99519B609D6CDDD07DEFD5CF /* BFCancellationTokenSource.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A0F507B7E543821F5DA0FE271AB8D1A /* BFCancellationTokenSource.m */; };
+		AD630158ED169506C49AF462830839C2 /* BFTaskCompletionSource.m in Sources */ = {isa = PBXBuildFile; fileRef = 837C74C50D6EB174D9E604F87998A366 /* BFTaskCompletionSource.m */; };
+		C3839C51AC2FAD12D0882EB41E09B4C4 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6E093D627869B650AB8D6411D2DE6B7A /* Foundation.framework */; };
+		C8CB5CE84CB537AE5FBA144414F3DD66 /* BFExecutor.h in Headers */ = {isa = PBXBuildFile; fileRef = 5262615D101BD874D13000503727A9E1 /* BFExecutor.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DF0E3839D3C353CC17F3CC651ED4897F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6E093D627869B650AB8D6411D2DE6B7A /* Foundation.framework */; };
+		E8367E4D6348EA80B58A3038BCD10B17 /* Bolts.h in Headers */ = {isa = PBXBuildFile; fileRef = 1F45BE53E5EE8C11CE38BA5469672585 /* Bolts.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		EF05F0601D2BBE75531DE4325AD62EDE /* BFDefines.h in Headers */ = {isa = PBXBuildFile; fileRef = EB8083EF64DA1F773755FE95B0113853 /* BFDefines.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		FC214077677D4F02E03C6C85F774E028 /* MBProgressHUD-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F44E039A8A5497323CE7C4E8B890DBC /* MBProgressHUD-dummy.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		24387CF7A6A6311D266375A499D37521 /* PBXContainerItemProxy */ = {
+		6002B732CEC1045F65C1DC209517B409 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3C40AD938D23DF5F8345D23B4D3E1644;
+			remoteInfo = Bolts;
+		};
+		A618552F6F2ABEA8617DDB86A0D8CB42 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
@@ -27,32 +52,60 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		0ADF4AC09618308EB1918954A4032FB4 /* MBProgressHUD.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = MBProgressHUD.h; sourceTree = "<group>"; };
-		0C67219B3723B32061E4B2D11B8DD7BD /* libMBProgressHUD.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libMBProgressHUD.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		09DC8352F2C27983E501F20A54762F5A /* libBolts.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libBolts.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		1264325C4220C1BDC3C73E5D496129FD /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.0.sdk/System/Library/Frameworks/CoreGraphics.framework; sourceTree = DEVELOPER_DIR; };
-		13111EAA295373CA67CE62C7D62A402C /* MBProgressHUD-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "MBProgressHUD-prefix.pch"; sourceTree = "<group>"; };
-		1383DE1BDA6C458CD64DD6B5CEABA3C3 /* MBProgressHUD-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "MBProgressHUD-dummy.m"; sourceTree = "<group>"; };
+		1F45BE53E5EE8C11CE38BA5469672585 /* Bolts.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = Bolts.h; path = Bolts/Common/Bolts.h; sourceTree = "<group>"; };
+		3BEF81CC1FCEF7517AE4C9B790FA81D0 /* BFTask.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BFTask.h; path = Bolts/Common/BFTask.h; sourceTree = "<group>"; };
+		3F6AA283B454AE81E511AF5AAFE00BE5 /* BFTaskCompletionSource.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BFTaskCompletionSource.h; path = Bolts/Common/BFTaskCompletionSource.h; sourceTree = "<group>"; };
+		42880AA06078567ED1BC1EF44A6F94EC /* MetaWear.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = MetaWear.framework; sourceTree = "<group>"; };
+		5262615D101BD874D13000503727A9E1 /* BFExecutor.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BFExecutor.h; path = Bolts/Common/BFExecutor.h; sourceTree = "<group>"; };
+		52E2BEB0705A45D5D08D3560C28DF915 /* Bolts.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = Bolts.m; path = Bolts/Common/Bolts.m; sourceTree = "<group>"; };
+		5AAADB1B939A9476611E5AB676D2FCA5 /* BFExecutor.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = BFExecutor.m; path = Bolts/Common/BFExecutor.m; sourceTree = "<group>"; };
+		5C50FC1B3F7A06C177F60B46AE3EABC5 /* BFCancellationToken.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = BFCancellationToken.m; path = Bolts/Common/BFCancellationToken.m; sourceTree = "<group>"; };
+		5D62D6DAEBB2A89033C4DF03EDEC3012 /* BFCancellationTokenRegistration.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BFCancellationTokenRegistration.h; path = Bolts/Common/BFCancellationTokenRegistration.h; sourceTree = "<group>"; };
+		6279C50E142E1AA0CB851CF78C2827C4 /* Bolts.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Bolts.xcconfig; sourceTree = "<group>"; };
+		663F0BD63DA4421447EBA81C44E9EFD3 /* MBProgressHUD.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = MBProgressHUD.m; sourceTree = "<group>"; };
 		66AE83CA9CEA38A47FC328BE89696088 /* Pods-SwiftStarter-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-SwiftStarter-frameworks.sh"; sourceTree = "<group>"; };
-		6C1042E8F70BE755B6A4E21926798904 /* MetaWear.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = MetaWear.framework; sourceTree = "<group>"; };
+		68ABA6E24894B0920226726D1C3AA794 /* BFTask.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = BFTask.m; path = Bolts/Common/BFTask.m; sourceTree = "<group>"; };
 		6E093D627869B650AB8D6411D2DE6B7A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		9F6316D9933712399AE9A292D7B63666 /* MBProgressHUD.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = MBProgressHUD.m; sourceTree = "<group>"; };
+		837C74C50D6EB174D9E604F87998A366 /* BFTaskCompletionSource.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = BFTaskCompletionSource.m; path = Bolts/Common/BFTaskCompletionSource.m; sourceTree = "<group>"; };
+		8B9384FA6DC48D16533FBD7B819ED506 /* MBProgressHUD-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "MBProgressHUD-prefix.pch"; sourceTree = "<group>"; };
+		8F44E039A8A5497323CE7C4E8B890DBC /* MBProgressHUD-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "MBProgressHUD-dummy.m"; sourceTree = "<group>"; };
+		953B0C84833B97D25B3B12FF414909C6 /* MBProgressHUD.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = MBProgressHUD.xcconfig; sourceTree = "<group>"; };
+		9A0F507B7E543821F5DA0FE271AB8D1A /* BFCancellationTokenSource.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = BFCancellationTokenSource.m; path = Bolts/Common/BFCancellationTokenSource.m; sourceTree = "<group>"; };
+		9B91BD3442FCE60F36CF98982FC10FE8 /* libPods-SwiftStarter.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-SwiftStarter.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		B11274D1729390B187A4B41CED5CA09F /* Pods-SwiftStarter.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SwiftStarter.debug.xcconfig"; sourceTree = "<group>"; };
 		BA6428E9F66FD5A23C0A2E06ED26CD2F /* Podfile */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		BC533CE747164050A1616A80B4962427 /* BoltsVersion.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BoltsVersion.h; path = Bolts/Common/BoltsVersion.h; sourceTree = "<group>"; };
 		CAC0A468214DD16277A459DB003C7463 /* Pods-SwiftStarter-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-SwiftStarter-dummy.m"; sourceTree = "<group>"; };
-		DCE6B3C2377E82E44959FF72742F697C /* MBProgressHUD.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = MBProgressHUD.xcconfig; sourceTree = "<group>"; };
+		CCD51776F0C268B8AD2057608884B481 /* Bolts-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Bolts-prefix.pch"; sourceTree = "<group>"; };
+		CE3B138E1C54A403D713D864FA0F8773 /* BFCancellationTokenSource.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BFCancellationTokenSource.h; path = Bolts/Common/BFCancellationTokenSource.h; sourceTree = "<group>"; };
+		D2959A7587B48899D626BD77FDBE55E8 /* libMBProgressHUD.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libMBProgressHUD.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		D4149B07B0BE45403582E4BE0032D226 /* Bolts-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Bolts-dummy.m"; sourceTree = "<group>"; };
 		DE9CEE25A205CE5A81912D9B593798B5 /* Pods-SwiftStarter-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SwiftStarter-acknowledgements.plist"; sourceTree = "<group>"; };
+		E03ABF20F8F07E467B3CB9D60A60A079 /* BFCancellationTokenRegistration.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = BFCancellationTokenRegistration.m; path = Bolts/Common/BFCancellationTokenRegistration.m; sourceTree = "<group>"; };
+		EB8083EF64DA1F773755FE95B0113853 /* BFDefines.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BFDefines.h; path = Bolts/Common/BFDefines.h; sourceTree = "<group>"; };
+		EBBDF7FF1C9C3D56558408863A4BE4AB /* BFCancellationToken.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BFCancellationToken.h; path = Bolts/Common/BFCancellationToken.h; sourceTree = "<group>"; };
 		F4281420CD9BFCA3A49C3F6BE510FD7A /* Pods-SwiftStarter-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-SwiftStarter-resources.sh"; sourceTree = "<group>"; };
 		F844BEB66F1F10686E8F1522ED66B381 /* Pods-SwiftStarter.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SwiftStarter.release.xcconfig"; sourceTree = "<group>"; };
+		FD0869565E72DAB375C4123EA40F3A2B /* MBProgressHUD.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = MBProgressHUD.h; sourceTree = "<group>"; };
 		FDC75DB8480EF9E34E9233B4A6573FC2 /* Pods-SwiftStarter-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-SwiftStarter-acknowledgements.markdown"; sourceTree = "<group>"; };
-		FF3DBAE156422282C247ED03D956AFEE /* libPods-SwiftStarter.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-SwiftStarter.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		7864ABD30D4806C1BD51A3894C3D1111 /* Frameworks */ = {
+		486D5ED32E1909A70ABDA24EFDB695CF /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				221053591BFBCAC1D8878B53B2880B88 /* Foundation.framework in Frameworks */,
+				DF0E3839D3C353CC17F3CC651ED4897F /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CBE15663085E6BF838F941DD7F53433B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C3839C51AC2FAD12D0882EB41E09B4C4 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -68,15 +121,33 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		25D7B9F265A7D0D7AB369507CBC35166 /* Support Files */ = {
+		0791A088D358A69E3824D11166E500B0 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				DCE6B3C2377E82E44959FF72742F697C /* MBProgressHUD.xcconfig */,
-				1383DE1BDA6C458CD64DD6B5CEABA3C3 /* MBProgressHUD-dummy.m */,
-				13111EAA295373CA67CE62C7D62A402C /* MBProgressHUD-prefix.pch */,
+				DC4BB5F76244A88883F2FBD78C8F652A /* Bolts */,
+				8A7F58ECF0BBB0ED162590900B3F4481 /* MBProgressHUD */,
+				C836CC2554989530BD6268FE6866B02C /* Metawear-iOSAPI */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		0E79D64CEC9E489F0A3ACD361A1A8C33 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				6279C50E142E1AA0CB851CF78C2827C4 /* Bolts.xcconfig */,
+				D4149B07B0BE45403582E4BE0032D226 /* Bolts-dummy.m */,
+				CCD51776F0C268B8AD2057608884B481 /* Bolts-prefix.pch */,
 			);
 			name = "Support Files";
-			path = "../Target Support Files/MBProgressHUD";
+			path = "../Target Support Files/Bolts";
+			sourceTree = "<group>";
+		};
+		249F20FD1EB4A2AF12C06C2AB5FCA0FB /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				42880AA06078567ED1BC1EF44A6F94EC /* MetaWear.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 		30A970E6D5E9003848D0719D8E7F0E61 /* Pods-SwiftStarter */ = {
@@ -103,16 +174,6 @@
 			name = iOS;
 			sourceTree = "<group>";
 		};
-		3B2B11E5E7E854B50F67EA753E5DC4F4 /* MBProgressHUD */ = {
-			isa = PBXGroup;
-			children = (
-				0ADF4AC09618308EB1918954A4032FB4 /* MBProgressHUD.h */,
-				9F6316D9933712399AE9A292D7B63666 /* MBProgressHUD.m */,
-				25D7B9F265A7D0D7AB369507CBC35166 /* Support Files */,
-			);
-			path = MBProgressHUD;
-			sourceTree = "<group>";
-		};
 		433CD3331B6C3787F473C941B61FC68F /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
@@ -121,21 +182,25 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		49FD5AD0E7B79074F3F78798B4B97A3E /* Pods */ = {
+		6C4227F70E55D55B5D9B64943F7CCDC0 /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				3B2B11E5E7E854B50F67EA753E5DC4F4 /* MBProgressHUD */,
-				86104CC18429E7955256BA3487661558 /* Metawear-iOSAPI */,
+				953B0C84833B97D25B3B12FF414909C6 /* MBProgressHUD.xcconfig */,
+				8F44E039A8A5497323CE7C4E8B890DBC /* MBProgressHUD-dummy.m */,
+				8B9384FA6DC48D16533FBD7B819ED506 /* MBProgressHUD-prefix.pch */,
 			);
-			name = Pods;
+			name = "Support Files";
+			path = "../Target Support Files/MBProgressHUD";
 			sourceTree = "<group>";
 		};
-		6B4F799CB07EAE0171DA7F95D5CF51BF /* Frameworks */ = {
+		78E39A1C1848603720E232E77CAE08BC /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				6C1042E8F70BE755B6A4E21926798904 /* MetaWear.framework */,
+				09DC8352F2C27983E501F20A54762F5A /* libBolts.a */,
+				D2959A7587B48899D626BD77FDBE55E8 /* libMBProgressHUD.a */,
+				9B91BD3442FCE60F36CF98982FC10FE8 /* libPods-SwiftStarter.a */,
 			);
-			name = Frameworks;
+			name = Products;
 			sourceTree = "<group>";
 		};
 		7DB346D0F39D3F0E887471402A8071AB = {
@@ -143,18 +208,43 @@
 			children = (
 				BA6428E9F66FD5A23C0A2E06ED26CD2F /* Podfile */,
 				433CD3331B6C3787F473C941B61FC68F /* Frameworks */,
-				49FD5AD0E7B79074F3F78798B4B97A3E /* Pods */,
-				F7DAF3A214C0BC5A592B433587C3180A /* Products */,
+				0791A088D358A69E3824D11166E500B0 /* Pods */,
+				78E39A1C1848603720E232E77CAE08BC /* Products */,
 				B8F331E392B9C2E16AECC7B9E10D1980 /* Targets Support Files */,
 			);
 			sourceTree = "<group>";
 		};
-		86104CC18429E7955256BA3487661558 /* Metawear-iOSAPI */ = {
+		87369BEC1B08627A719382E0F9CC919C /* Tasks */ = {
 			isa = PBXGroup;
 			children = (
-				6B4F799CB07EAE0171DA7F95D5CF51BF /* Frameworks */,
+				EBBDF7FF1C9C3D56558408863A4BE4AB /* BFCancellationToken.h */,
+				5C50FC1B3F7A06C177F60B46AE3EABC5 /* BFCancellationToken.m */,
+				5D62D6DAEBB2A89033C4DF03EDEC3012 /* BFCancellationTokenRegistration.h */,
+				E03ABF20F8F07E467B3CB9D60A60A079 /* BFCancellationTokenRegistration.m */,
+				CE3B138E1C54A403D713D864FA0F8773 /* BFCancellationTokenSource.h */,
+				9A0F507B7E543821F5DA0FE271AB8D1A /* BFCancellationTokenSource.m */,
+				EB8083EF64DA1F773755FE95B0113853 /* BFDefines.h */,
+				5262615D101BD874D13000503727A9E1 /* BFExecutor.h */,
+				5AAADB1B939A9476611E5AB676D2FCA5 /* BFExecutor.m */,
+				3BEF81CC1FCEF7517AE4C9B790FA81D0 /* BFTask.h */,
+				68ABA6E24894B0920226726D1C3AA794 /* BFTask.m */,
+				3F6AA283B454AE81E511AF5AAFE00BE5 /* BFTaskCompletionSource.h */,
+				837C74C50D6EB174D9E604F87998A366 /* BFTaskCompletionSource.m */,
+				1F45BE53E5EE8C11CE38BA5469672585 /* Bolts.h */,
+				52E2BEB0705A45D5D08D3560C28DF915 /* Bolts.m */,
+				BC533CE747164050A1616A80B4962427 /* BoltsVersion.h */,
 			);
-			path = "Metawear-iOSAPI";
+			name = Tasks;
+			sourceTree = "<group>";
+		};
+		8A7F58ECF0BBB0ED162590900B3F4481 /* MBProgressHUD */ = {
+			isa = PBXGroup;
+			children = (
+				FD0869565E72DAB375C4123EA40F3A2B /* MBProgressHUD.h */,
+				663F0BD63DA4421447EBA81C44E9EFD3 /* MBProgressHUD.m */,
+				6C4227F70E55D55B5D9B64943F7CCDC0 /* Support Files */,
+			);
+			path = MBProgressHUD;
 			sourceTree = "<group>";
 		};
 		B8F331E392B9C2E16AECC7B9E10D1980 /* Targets Support Files */ = {
@@ -165,18 +255,42 @@
 			name = "Targets Support Files";
 			sourceTree = "<group>";
 		};
-		F7DAF3A214C0BC5A592B433587C3180A /* Products */ = {
+		C836CC2554989530BD6268FE6866B02C /* Metawear-iOSAPI */ = {
 			isa = PBXGroup;
 			children = (
-				0C67219B3723B32061E4B2D11B8DD7BD /* libMBProgressHUD.a */,
-				FF3DBAE156422282C247ED03D956AFEE /* libPods-SwiftStarter.a */,
+				249F20FD1EB4A2AF12C06C2AB5FCA0FB /* Frameworks */,
 			);
-			name = Products;
+			path = "Metawear-iOSAPI";
+			sourceTree = "<group>";
+		};
+		DC4BB5F76244A88883F2FBD78C8F652A /* Bolts */ = {
+			isa = PBXGroup;
+			children = (
+				0E79D64CEC9E489F0A3ACD361A1A8C33 /* Support Files */,
+				87369BEC1B08627A719382E0F9CC919C /* Tasks */,
+			);
+			path = Bolts;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
+		DDE5FEB125BB9CC60CC02F1559AFFED4 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8171D90C762985147762FEF042529624 /* BFCancellationToken.h in Headers */,
+				A9793B08738CED7C0AEDB24BB07A673B /* BFCancellationTokenRegistration.h in Headers */,
+				566A7AC6D79333623B7F77A4501CFE63 /* BFCancellationTokenSource.h in Headers */,
+				EF05F0601D2BBE75531DE4325AD62EDE /* BFDefines.h in Headers */,
+				C8CB5CE84CB537AE5FBA144414F3DD66 /* BFExecutor.h in Headers */,
+				75042006A0F95C76E1B185CCEE6658DA /* BFTask.h in Headers */,
+				899B962A9C38D5A4D25EFDF457C0F480 /* BFTaskCompletionSource.h in Headers */,
+				E8367E4D6348EA80B58A3038BCD10B17 /* Bolts.h in Headers */,
+				30C5834D63F7306117A1AABDD346E4A3 /* BoltsVersion.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		EF1C003613925663F17E023C73AF519C /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
@@ -188,21 +302,39 @@
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		7FD2797F2723C50E3426429A6BC847F9 /* Pods-SwiftStarter */ = {
+		3C40AD938D23DF5F8345D23B4D3E1644 /* Bolts */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 1F0D79D1FCFDADFED89CF2A8C86BFD03 /* Build configuration list for PBXNativeTarget "Pods-SwiftStarter" */;
+			buildConfigurationList = 9E39D1E69C3A2A3EC3798BFAB2385F0C /* Build configuration list for PBXNativeTarget "Bolts" */;
 			buildPhases = (
-				E47952638170EAD831B686C9ACB167ED /* Sources */,
-				7864ABD30D4806C1BD51A3894C3D1111 /* Frameworks */,
+				E8EDC76BDBA305229FA7966652B4B078 /* Sources */,
+				486D5ED32E1909A70ABDA24EFDB695CF /* Frameworks */,
+				DDE5FEB125BB9CC60CC02F1559AFFED4 /* Headers */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				88362DC3E92D9D895B79F2BEFD543356 /* PBXTargetDependency */,
+			);
+			name = Bolts;
+			productName = Bolts;
+			productReference = 09DC8352F2C27983E501F20A54762F5A /* libBolts.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		A916C538E591EB217BFBE1AE65225E18 /* Pods-SwiftStarter */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C4E4F6E324B699E06B709CD170EC8015 /* Build configuration list for PBXNativeTarget "Pods-SwiftStarter" */;
+			buildPhases = (
+				07E93C905BE14A3281B88A6E45B26839 /* Sources */,
+				CBE15663085E6BF838F941DD7F53433B /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F47109C5E7A8EEA34CFE06A22149447D /* PBXTargetDependency */,
+				E0DF90BDE5AB37C0188490940B905779 /* PBXTargetDependency */,
 			);
 			name = "Pods-SwiftStarter";
 			productName = "Pods-SwiftStarter";
-			productReference = FF3DBAE156422282C247ED03D956AFEE /* libPods-SwiftStarter.a */;
+			productReference = 9B91BD3442FCE60F36CF98982FC10FE8 /* libPods-SwiftStarter.a */;
 			productType = "com.apple.product-type.library.static";
 		};
 		FE2F1D7B9D9FCEA148517E4657B243F4 /* MBProgressHUD */ = {
@@ -219,7 +351,7 @@
 			);
 			name = MBProgressHUD;
 			productName = MBProgressHUD;
-			productReference = 0C67219B3723B32061E4B2D11B8DD7BD /* libMBProgressHUD.a */;
+			productReference = D2959A7587B48899D626BD77FDBE55E8 /* libMBProgressHUD.a */;
 			productType = "com.apple.product-type.library.static";
 		};
 /* End PBXNativeTarget section */
@@ -239,17 +371,26 @@
 				en,
 			);
 			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
-			productRefGroup = F7DAF3A214C0BC5A592B433587C3180A /* Products */;
+			productRefGroup = 78E39A1C1848603720E232E77CAE08BC /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
+				3C40AD938D23DF5F8345D23B4D3E1644 /* Bolts */,
 				FE2F1D7B9D9FCEA148517E4657B243F4 /* MBProgressHUD */,
-				7FD2797F2723C50E3426429A6BC847F9 /* Pods-SwiftStarter */,
+				A916C538E591EB217BFBE1AE65225E18 /* Pods-SwiftStarter */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXSourcesBuildPhase section */
+		07E93C905BE14A3281B88A6E45B26839 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3CD61DBFB477136036562101303D7456 /* Pods-SwiftStarter-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		098439AB598DDF1AF51146A2E3E2E562 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -259,45 +400,40 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		E47952638170EAD831B686C9ACB167ED /* Sources */ = {
+		E8EDC76BDBA305229FA7966652B4B078 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B127426BEADAD6A1267E4ECEFB8531AC /* Pods-SwiftStarter-dummy.m in Sources */,
+				124DAFBBD0BC0BED3A84A8BCDDE99EAA /* BFCancellationToken.m in Sources */,
+				6F2BD02BE2A70F04A0E14F74FCF951E7 /* BFCancellationTokenRegistration.m in Sources */,
+				AAF6965E99519B609D6CDDD07DEFD5CF /* BFCancellationTokenSource.m in Sources */,
+				15B84D9DC29C600B893F6B0E7638C77A /* BFExecutor.m in Sources */,
+				827C558B15971ED44576C761940FC539 /* BFTask.m in Sources */,
+				AD630158ED169506C49AF462830839C2 /* BFTaskCompletionSource.m in Sources */,
+				30F2C86135C9CD07155D145D5DBA6A09 /* Bolts-dummy.m in Sources */,
+				A3760DED8C87382D3907D94384F2EE4C /* Bolts.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		88362DC3E92D9D895B79F2BEFD543356 /* PBXTargetDependency */ = {
+		E0DF90BDE5AB37C0188490940B905779 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = MBProgressHUD;
 			target = FE2F1D7B9D9FCEA148517E4657B243F4 /* MBProgressHUD */;
-			targetProxy = 24387CF7A6A6311D266375A499D37521 /* PBXContainerItemProxy */;
+			targetProxy = A618552F6F2ABEA8617DDB86A0D8CB42 /* PBXContainerItemProxy */;
+		};
+		F47109C5E7A8EEA34CFE06A22149447D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = Bolts;
+			target = 3C40AD938D23DF5F8345D23B4D3E1644 /* Bolts */;
+			targetProxy = 6002B732CEC1045F65C1DC209517B409 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		2EB7464BFC4B881299B5657C95CD0AF5 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = DCE6B3C2377E82E44959FF72742F697C /* MBProgressHUD.xcconfig */;
-			buildSettings = {
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/MBProgressHUD/MBProgressHUD-prefix.pch";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				MTL_ENABLE_DEBUG_INFO = YES;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PRIVATE_HEADERS_FOLDER_PATH = "";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				PUBLIC_HEADERS_FOLDER_PATH = "";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-			};
-			name = Debug;
-		};
-		457C2CDC755658E86D0856F29C441574 /* Debug */ = {
+		13470B4862572494392A206A87DE6A0A /* Debug */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = B11274D1729390B187A4B41CED5CA09F /* Pods-SwiftStarter.debug.xcconfig */;
 			buildSettings = {
@@ -314,26 +450,63 @@
 			};
 			name = Debug;
 		};
-		8BDFF2E5053EFBDA665D400248B6277C /* Release */ = {
+		14EF1F5C4AC586740E70707AB595073F /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = F844BEB66F1F10686E8F1522ED66B381 /* Pods-SwiftStarter.release.xcconfig */;
+			baseConfigurationReference = 6279C50E142E1AA0CB851CF78C2827C4 /* Bolts.xcconfig */;
 			buildSettings = {
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Bolts/Bolts-prefix.pch";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				MACH_O_TYPE = staticlib;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		25594168BB4FC0272A72FBF682F6E12E /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6279C50E142E1AA0CB851CF78C2827C4 /* Bolts.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Bolts/Bolts-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				OTHER_LDFLAGS = "";
 				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "";
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 			};
 			name = Release;
 		};
+		2EB7464BFC4B881299B5657C95CD0AF5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 953B0C84833B97D25B3B12FF414909C6 /* MBProgressHUD.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/MBProgressHUD/MBProgressHUD-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
 		919FAA2929EE9C5D42F4E864F99B6175 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = DCE6B3C2377E82E44959FF72742F697C /* MBProgressHUD.xcconfig */;
+			baseConfigurationReference = 953B0C84833B97D25B3B12FF414909C6 /* MBProgressHUD.xcconfig */;
 			buildSettings = {
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				GCC_PREFIX_HEADER = "Target Support Files/MBProgressHUD/MBProgressHUD-prefix.pch";
@@ -388,6 +561,23 @@
 			};
 			name = Debug;
 		};
+		C35D795F8AA2CB6294D36EBF45695735 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F844BEB66F1F10686E8F1522ED66B381 /* Pods-SwiftStarter.release.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MACH_O_TYPE = staticlib;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
 		FB45FFD90572718D82AB9092B750F0CA /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -425,20 +615,29 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		1F0D79D1FCFDADFED89CF2A8C86BFD03 /* Build configuration list for PBXNativeTarget "Pods-SwiftStarter" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				457C2CDC755658E86D0856F29C441574 /* Debug */,
-				8BDFF2E5053EFBDA665D400248B6277C /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
 		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				A70CDAD61F90AC503C7D04CC22DA2923 /* Debug */,
 				FB45FFD90572718D82AB9092B750F0CA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9E39D1E69C3A2A3EC3798BFAB2385F0C /* Build configuration list for PBXNativeTarget "Bolts" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				14EF1F5C4AC586740E70707AB595073F /* Debug */,
+				25594168BB4FC0272A72FBF682F6E12E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C4E4F6E324B699E06B709CD170EC8015 /* Build configuration list for PBXNativeTarget "Pods-SwiftStarter" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				13470B4862572494392A206A87DE6A0A /* Debug */,
+				C35D795F8AA2CB6294D36EBF45695735 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
