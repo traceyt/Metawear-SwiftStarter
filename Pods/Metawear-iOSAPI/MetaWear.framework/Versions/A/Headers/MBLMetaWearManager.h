@@ -46,7 +46,9 @@ typedef NS_ENUM(uint8_t, MBLFirmwareVersion) {
     MBLFirmwareVersion1_0_5,
     MBLFirmwareVersion1_0_6,
     MBLFirmwareVersion1_0_7,
-    MBLFirmwareVersion1_1_0
+    MBLFirmwareVersion1_1_0,
+    MBLFirmwareVersion1_1_1,
+    MBLFirmwareVersion1_1_2
 };
 
 /**
@@ -61,6 +63,13 @@ typedef NS_ENUM(uint8_t, MBLFirmwareVersion) {
  */
 @property (nonatomic) MBLFirmwareVersion minimumRequiredVersion;
 
+/**
+ Sets the queue for which all callbacks on both the MBLMetaWearManager and
+ MBLMetaWear will occur on.  Defaults to the main queue.
+ @param queue The queue on which the events will be dispatched.
+ */
+@property (nonatomic) NSOperationQueue *dispatchQueue;
+
 ///----------------------------------
 /// @name Getting the Shared Instance
 ///----------------------------------
@@ -71,17 +80,6 @@ typedef NS_ENUM(uint8_t, MBLFirmwareVersion) {
  @warning You should not create an MBLMetaWearManager object, only used the sharedManager
  */
 + (instancetype)sharedManager;
-
-///----------------------------------
-/// @name Setting Callback Queue
-///----------------------------------
-
-/**
- Sets the queue for which all callbacks on both the MBLMetaWearManager and 
- MBLMetaWear will occur on.  Defaults to the main queue.
- @param queue The queue on which the events will be dispatched.
- */
-- (void)setCallbackQueue:(NSOperationQueue *)queue;
 
 ///----------------------------------
 /// @name MetaWear Scanning and Finding

@@ -1,7 +1,7 @@
 PODS:
-  - Bolts/Tasks (1.5.1)
+  - Bolts/Tasks (1.6.0)
   - MBProgressHUD (0.9.2)
-  - Metawear-iOSAPI (2.0.1):
+  - Metawear-iOSAPI (2.1.1):
     - Bolts/Tasks (~> 1.5)
 
 DEPENDENCIES:
@@ -9,8 +9,8 @@ DEPENDENCIES:
   - Metawear-iOSAPI
 
 SPEC CHECKSUMS:
-  Bolts: a12663244b1d3351c738882e71902fc74db54f64
+  Bolts: f52a250053bb517ca874523c3913776359ab3def
   MBProgressHUD: 1569cf7ace17a8bac47aabfbb8580a49690386d1
-  Metawear-iOSAPI: 6a9df6f09071c11df828e63a49384d6a13d1dc33
+  Metawear-iOSAPI: fc423550ba83ddf2cfe2e8c76dfac262613e1749
 
 COCOAPODS: 0.39.0

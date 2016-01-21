@@ -49,13 +49,13 @@ NS_ASSUME_NONNULL_BEGIN
 
 /**
  Data representing the atmospheric pressure measured by barometer.
- Event callbacks will be provided an MBLNumericData object whose float
+ Event callbacks will be provided an MBLNumericData object whose double
  value will be pressure in pascals.
  */
 @property (nonatomic, readonly) MBLData MBL_GENERIC(MBLNumericData *) *pressure;
 /**
  Data representing the altidue calulated from atmospheric pressure.
- Event callbacks will be provided an MBLNumericData object whose float
+ Event callbacks will be provided an MBLNumericData object whose double
  value will be altitude in meters.
  */
 @property (nonatomic, readonly) MBLData MBL_GENERIC(MBLNumericData *) *altitude;
