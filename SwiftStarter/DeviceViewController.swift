@@ -29,19 +29,20 @@ class DeviceViewController: UIViewController {
         device.disconnectWithHandler(nil)
     }
     
-    
     override func observeValueForKeyPath(keyPath: String?, ofObject object: AnyObject?, change: [String : AnyObject]?, context: UnsafeMutablePointer<Void>) {
-        switch (device.state) {
-        case .Connected:
-            deviceStatus.text = "Connected";
-        case .Connecting:
-            deviceStatus.text = "Connecting";
-        case .Disconnected:
-            deviceStatus.text = "Disconnected";
-        case .Disconnecting:
-            deviceStatus.text = "Disconnecting";
-        case .Discovery:
-            deviceStatus.text = "Discovery";
+        NSOperationQueue.mainQueue().addOperationWithBlock {
+            switch (self.device.state) {
+            case .Connected:
+                self.deviceStatus.text = "Connected";
+            case .Connecting:
+                self.deviceStatus.text = "Connecting";
+            case .Disconnected:
+                self.deviceStatus.text = "Disconnected";
+            case .Disconnecting:
+                self.deviceStatus.text = "Disconnecting";
+            case .Discovery:
+                self.deviceStatus.text = "Discovery";
+            }
         }
     }
 }

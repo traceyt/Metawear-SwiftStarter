@@ -14,7 +14,7 @@ class MainTableViewController: UITableViewController, ScanTableViewControllerDel
     override func viewWillAppear(animated: Bool) {
         super.viewWillAppear(animated);
         
-        MBLMetaWearManager.sharedManager().retrieveSavedMetaWearsWithHandler({ (array: [AnyObject]?) -> Void in
+        MBLMetaWearManager.sharedManager().retrieveSavedMetaWearsAsync().success { (array) in
             if let deviceArray = array as? [MBLMetaWear] {
                 if deviceArray.count > 0 {
                     self.devices = deviceArray
@@ -25,7 +25,7 @@ class MainTableViewController: UITableViewController, ScanTableViewControllerDel
                 self.devices = nil
             }
             self.tableView.reloadData()
-        })
+        }
     }
     
     // MARK: - Scan table view delegate
