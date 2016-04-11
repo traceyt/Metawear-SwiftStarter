@@ -45,18 +45,43 @@ class ScanTableViewController: UITableViewController {
 
         // Configure the cell...
         if let cur = devices?[indexPath.row] {
-            let name = cell.viewWithTag(1) as! UILabel
-            name.text = cur.name
-            
-            let uuid = cell.viewWithTag(2) as! UILabel
+            let uuid = cell.viewWithTag(1) as! UILabel
             uuid.text = cur.identifier.UUIDString
             
             if let rssiNumber = cur.discoveryTimeRSSI {
-                let rssi = cell.viewWithTag(3) as! UILabel
+                let rssi = cell.viewWithTag(2) as! UILabel
                 rssi.text = rssiNumber.stringValue
             }
+            
+            let connected = cell.viewWithTag(3) as! UILabel
+            if cur.state == .Connected {
+                connected.hidden = false
+            } else {
+                connected.hidden = true
+            }
+            
+            let name = cell.viewWithTag(4) as! UILabel
+            name.text = cur.name
+            
+            let signal = cell.viewWithTag(5) as! UIImageView
+            if let movingAverage = cur.averageRSSI?.doubleValue {
+                if movingAverage < -80.0 {
+                    signal.image = UIImage(named: "wifi_d1")
+                } else if movingAverage < -70.0 {
+                    signal.image = UIImage(named: "wifi_d2")
+                } else if movingAverage < -60.0 {
+                    signal.image = UIImage(named: "wifi_d3")
+                } else if movingAverage < -50.0 {
+                    signal.image = UIImage(named: "wifi_d4")
+                } else if movingAverage < -40.0 {
+                    signal.image = UIImage(named: "wifi_d5")
+                } else {
+                    signal.image = UIImage(named: "wifi_d6")
+                }
+            } else {
+                signal.image = UIImage(named: "wifi_not_connected")
+            }
         }
-        
         return cell
     }
 
