@@ -88,16 +88,16 @@ class ScanTableViewController: UITableViewController {
     override func tableView(tableView: UITableView, didSelectRowAtIndexPath indexPath: NSIndexPath) {
         tableView.deselectRowAtIndexPath(indexPath, animated: true)
         if let selected = devices?[indexPath.row] {
-            let hud = MBProgressHUD.showHUDAddedTo(UIApplication.sharedApplication().keyWindow, animated: true)
-            hud.labelText = "Connecting..."
+            let hud = MBProgressHUD.showHUDAddedTo(UIApplication.sharedApplication().keyWindow!, animated: true)
+            hud.label.text = "Connecting..."
             
             self.selected = selected
             selected.connectWithTimeout(15, handler: { (error: NSError?) -> Void in
                 if let realError = error {
-                    hud.labelText = realError.localizedDescription
-                    hud.hide(true, afterDelay: 2.0)
+                    hud.label.text = realError.localizedDescription
+                    hud.hideAnimated(true, afterDelay: 2.0)
                 } else {
-                    hud.hide(true)
+                    hud.hideAnimated(true)
                     selected.led?.flashLEDColorAsync(UIColor.greenColor(), withIntensity: 1.0)
                     
                     let alert = UIAlertController(title: "Confirm Device", message: "Do you see a blinking green LED on the MetaWear", preferredStyle: UIAlertControllerStyle.Alert)

@@ -7,37 +7,40 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0099953A1C6995C5F040F2E6A4F7F4C5 /* BFTask.h in Headers */ = {isa = PBXBuildFile; fileRef = DA434F005A6670A5D2E4F92BCADD1F08 /* BFTask.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0951ECB79A8DDBA8DC3077FA1CC84E6B /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 61FE94CBCE30CCEC7711ED0A8D48F3D9 /* CoreGraphics.framework */; };
+		0B8F96873F94A1B86868FBBB86AD77D8 /* BFCancellationTokenSource.h in Headers */ = {isa = PBXBuildFile; fileRef = B37B4F543BC505FA677F7A24A7379F3E /* BFCancellationTokenSource.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		103AACDDC5F274E39C61DE1CAE9FDA05 /* BFExecutor.h in Headers */ = {isa = PBXBuildFile; fileRef = 37AC75319E954CBB56DF1C5313E675B4 /* BFExecutor.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		1A8B4054A718BC126204499BF03FE55C /* Pods-SwiftStarterUITests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = EBACA1F3B29F4A7AF787A2B952BD2E68 /* Pods-SwiftStarterUITests-dummy.m */; };
-		271D783CC1D4D994EE732837EF99670E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0CC1F1998668C3B38A2D60F70AC442F9 /* Foundation.framework */; };
-		281C6952631E14E80D15714D12894122 /* BFCancellationToken.m in Sources */ = {isa = PBXBuildFile; fileRef = 7DC4926651A8B3DDFCE03006AEC4DE51 /* BFCancellationToken.m */; };
-		361EAE216A4D9A8BBA8696BBBDB59C97 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0CC1F1998668C3B38A2D60F70AC442F9 /* Foundation.framework */; };
-		3EBD0CF2234FEA7BDECAF72FC576BC02 /* BFTaskCompletionSource.m in Sources */ = {isa = PBXBuildFile; fileRef = 02FF06585C3E8E594C596EBB6C9CEC01 /* BFTaskCompletionSource.m */; };
-		4287C19EEA870D344A54F233090E23A8 /* Bolts-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = E64C2345CF2698627D368F1899540142 /* Bolts-dummy.m */; };
-		48F833B65F2A5A623D14FEC689C355E2 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0CC1F1998668C3B38A2D60F70AC442F9 /* Foundation.framework */; };
-		4D433CC21617167F3EA0823DFD3F64AC /* BFCancellationToken.h in Headers */ = {isa = PBXBuildFile; fileRef = 0AFAB2D5D52BD4740A86A1890660FA2A /* BFCancellationToken.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1C289876A4849D6798FC7F154214C5F8 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 13FA8104D69E4B6550EFF77E38670F3E /* Foundation.framework */; };
+		271D783CC1D4D994EE732837EF99670E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 13FA8104D69E4B6550EFF77E38670F3E /* Foundation.framework */; };
+		2B342A1143B39C7E396A50C6540E2639 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0827BAE921A69715BA5D43430BF85A9F /* QuartzCore.framework */; };
+		2E574999BA61C4713AD4B3827765733E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 13FA8104D69E4B6550EFF77E38670F3E /* Foundation.framework */; };
+		32668748A529717B6758AA24BE8890D3 /* BFTaskCompletionSource.m in Sources */ = {isa = PBXBuildFile; fileRef = B69C265BF444296EDC9F295469C650A7 /* BFTaskCompletionSource.m */; };
+		34B55874A2EA143C38D09155321C6BE5 /* BFCancellationToken.h in Headers */ = {isa = PBXBuildFile; fileRef = 101C27889F8D660B7C442D59FF6EFF77 /* BFCancellationToken.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		361EAE216A4D9A8BBA8696BBBDB59C97 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 13FA8104D69E4B6550EFF77E38670F3E /* Foundation.framework */; };
+		371C156B2A88C69C622DFE151BD0AA56 /* BFTask+Exceptions.h in Headers */ = {isa = PBXBuildFile; fileRef = 3C8BE9E538194813409F31DBE2CF1770 /* BFTask+Exceptions.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3C866D37AFF48BB35D91B13D50B1FF36 /* BFTaskCompletionSource.h in Headers */ = {isa = PBXBuildFile; fileRef = 76B08A0885437C12AD4EA095CB6BD51E /* BFTaskCompletionSource.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		47225334CC5DBC4D5E3EAD00A71D1804 /* BFCancellationTokenSource.m in Sources */ = {isa = PBXBuildFile; fileRef = DF5D7777EA390DC54FC4826CEEE8AA20 /* BFCancellationTokenSource.m */; };
+		486A4A2F9E6E413DCB3BDA8CE51B92A2 /* Bolts-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = B12726F84FA8A887DD053F6091C161F7 /* Bolts-dummy.m */; };
 		5430378633ED4DD6AFA78F9DB9655A33 /* Pods-SwiftStarter-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 9EEB5E67D61ACCD7DEF71ED476D4DE0A /* Pods-SwiftStarter-dummy.m */; };
-		54AB7F96F285FA3604275DF625C7162B /* FastCoder.h in Headers */ = {isa = PBXBuildFile; fileRef = 88F97DD108EE64460CEDC0418F17CD1E /* FastCoder.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		5EB4F27B76513AE918BA5AE0868E87C8 /* MBProgressHUD.h in Headers */ = {isa = PBXBuildFile; fileRef = 86926FE2CC6881969B7D9642B2AA54B7 /* MBProgressHUD.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		61D5A835B40245168B7AD844150F4457 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0CC1F1998668C3B38A2D60F70AC442F9 /* Foundation.framework */; };
-		687D841A5038E9ED04A8518C2EFCDD8B /* BFTask.h in Headers */ = {isa = PBXBuildFile; fileRef = 9E61442E02D97DCB796D08D47A61E1CA /* BFTask.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		740AC457E1413C5968A2414AD51723D5 /* BFCancellationTokenRegistration.h in Headers */ = {isa = PBXBuildFile; fileRef = CA9A1F450315E88604D88F9A4E161A7A /* BFCancellationTokenRegistration.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		82FC12F67E83874B93592218E9FB4CA0 /* MBProgressHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = E10A79122FF9814FD3F9E9E1D22EC27A /* MBProgressHUD.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
-		847EC2B003EF7701223350BAB6C70EDA /* BFTaskCompletionSource.h in Headers */ = {isa = PBXBuildFile; fileRef = EA95707AFE803B6E6AA4A697197D4D20 /* BFTaskCompletionSource.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		94FC4AE35C0F90BD510E491C20A2F830 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0CC1F1998668C3B38A2D60F70AC442F9 /* Foundation.framework */; };
-		9628C08D2025BCDCC98B022D439C0E1D /* BFCancellationTokenSource.m in Sources */ = {isa = PBXBuildFile; fileRef = 136768630E5BF9D0BD4A8D4B514ADB14 /* BFCancellationTokenSource.m */; };
-		97BF761291D00285E81F9459CAFB8EC3 /* FastCoder.m in Sources */ = {isa = PBXBuildFile; fileRef = 5E637E7296289DF49125A228B572B8B5 /* FastCoder.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
-		B79D1B6F33E6229F2C9C4E039A2C3D4A /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B2C4A76B6AFC1ABC19A242A503DEE13E /* CoreGraphics.framework */; };
-		B85899B92BC88A465DAFB39A14006E8C /* FastCoding-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 9BD88B438755716FD5F6653871849BB6 /* FastCoding-dummy.m */; };
-		C563B8B74F9C59D0FD725AE4427B55B6 /* BFTask.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B83E0EB38F66DF5A5A3FFBC135352D0 /* BFTask.m */; };
-		C7A112ED74CD5D642BAC8B1AC0FBAF71 /* BFExecutor.h in Headers */ = {isa = PBXBuildFile; fileRef = C0D4ABD9E071A5433CB548F188FCB3B3 /* BFExecutor.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		CC3E31FD1854ABC9DFF867293A9C9F78 /* Bolts.h in Headers */ = {isa = PBXBuildFile; fileRef = 0CD774DFD4B06504E5B290A9D9BBAE04 /* Bolts.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		54AB7F96F285FA3604275DF625C7162B /* FastCoder.h in Headers */ = {isa = PBXBuildFile; fileRef = E0644FE50CBD87F69D22CEFAFFADC23B /* FastCoder.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		561039AF85EB33CED933164D0073D957 /* BFCancellationTokenRegistration.h in Headers */ = {isa = PBXBuildFile; fileRef = 0279280AA83E95C14B8F9B3C7A8EF1F6 /* BFCancellationTokenRegistration.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		61D5A835B40245168B7AD844150F4457 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 13FA8104D69E4B6550EFF77E38670F3E /* Foundation.framework */; };
+		648E7F45D6E4DCE98EED9D4E2F003C1E /* MBProgressHUD-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 710D4A6F2CC9EC22AAB0AF6DECF9324C /* MBProgressHUD-dummy.m */; };
+		695A3FA15E903AE48EB0B3BE336F2467 /* MBProgressHUD.h in Headers */ = {isa = PBXBuildFile; fileRef = 9EA4BDB12CEA0FA4B632A1DA9BC392B6 /* MBProgressHUD.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		726E5A8E19EC9EFF09A067E4D3F53B63 /* BFCancellationToken.m in Sources */ = {isa = PBXBuildFile; fileRef = 9283F191E80795C46B0EAC2362354A6A /* BFCancellationToken.m */; };
+		790AB5767EF04EA40E8EF6C455CCF3B8 /* BFTask+Exceptions.m in Sources */ = {isa = PBXBuildFile; fileRef = 16B054B035D7C0D8D44374104B0D1241 /* BFTask+Exceptions.m */; };
+		8F7CE50FC43EFDC632BA5D6E22448F37 /* Bolts.m in Sources */ = {isa = PBXBuildFile; fileRef = 02FCDC0489956AF6B1D97EC474D70B19 /* Bolts.m */; };
+		8F8D552B1B00AC296B2097505781B3D4 /* BFCancellationTokenRegistration.m in Sources */ = {isa = PBXBuildFile; fileRef = A82EA19D0D487C5F8C20F822A5A99113 /* BFCancellationTokenRegistration.m */; };
+		97BF761291D00285E81F9459CAFB8EC3 /* FastCoder.m in Sources */ = {isa = PBXBuildFile; fileRef = DDBAAF3B01B660EDFB60BE4D700F2617 /* FastCoder.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		9AC8DD5E4DCEA2F30D25BE866287BF45 /* BFExecutor.m in Sources */ = {isa = PBXBuildFile; fileRef = D78C6D23F8EE38291208115DF8150E02 /* BFExecutor.m */; };
+		A96582D4171204D5B29A6FD84D330C9F /* BFTask.m in Sources */ = {isa = PBXBuildFile; fileRef = 32B0CE3F07E53F296BE5A9BA134220B3 /* BFTask.m */; };
+		B85899B92BC88A465DAFB39A14006E8C /* FastCoding-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = D1BA0680F3D97185C63A95138791F958 /* FastCoding-dummy.m */; };
+		CC9CAA2E90DA0309AFE56BEEFBDF42A6 /* Bolts.h in Headers */ = {isa = PBXBuildFile; fileRef = 4741B4E8F925AA9DC0698CBE7CEBFC22 /* Bolts.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CCA9C08C9CBDE367B7BB38B6C0547B94 /* MBProgressHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = F63C086FEBDAEC77152467E2240BA1A9 /* MBProgressHUD.m */; };
 		CD036CC3BF3682C32FD34489A3B2FA2D /* Pods-SwiftStarterTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = B667B81D329261FE8E2804A2C3C776E9 /* Pods-SwiftStarterTests-dummy.m */; };
-		D35AB221E8F39195527A8D48C6630565 /* BFCancellationTokenSource.h in Headers */ = {isa = PBXBuildFile; fileRef = 5A643DD10F9E32E41BF4CB8B0C59AD09 /* BFCancellationTokenSource.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		DF2E84E0B39519983E0C7E36B4DCE9B0 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0CC1F1998668C3B38A2D60F70AC442F9 /* Foundation.framework */; };
-		E2F885F53CD632015F7248CE886275E7 /* Bolts.m in Sources */ = {isa = PBXBuildFile; fileRef = 8237CE1010D00CDEA35E94099693F1A5 /* Bolts.m */; };
-		EC60CCD803B4BBD7C5D6E4EA9B4015C3 /* BFCancellationTokenRegistration.m in Sources */ = {isa = PBXBuildFile; fileRef = BEDA50046B878AEF74CE52715647A3FB /* BFCancellationTokenRegistration.m */; };
-		FB5A4DBBC067C9F52907D067D56FC361 /* BFExecutor.m in Sources */ = {isa = PBXBuildFile; fileRef = 34BCDB973F7CC07EAF8E24B3AE0CE608 /* BFExecutor.m */; };
-		FC214077677D4F02E03C6C85F774E028 /* MBProgressHUD-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = A0E7B0F16ADE8A9997E0F5F9231BA40F /* MBProgressHUD-dummy.m */; };
+		DF2E84E0B39519983E0C7E36B4DCE9B0 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 13FA8104D69E4B6550EFF77E38670F3E /* Foundation.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,7 +48,7 @@
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 6095DE398C2BCE7C24317310CA12FDDD;
+			remoteGlobalIDString = 5F9CDF21330F4787AC04D56E0E745343;
 			remoteInfo = Bolts;
 		};
 		8F65C3B4A4EE52592F31A4EF446F07DE /* PBXContainerItemProxy */ = {
@@ -59,144 +62,149 @@
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = FE2F1D7B9D9FCEA148517E4657B243F4;
+			remoteGlobalIDString = D058B89EB3B3DF45457A2DCD3971AFFE;
 			remoteInfo = MBProgressHUD;
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		0150590D7FABB73A4DF26C4301009DCA /* MBLMetaWear.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MBLMetaWear.h; path = MetaWear.framework/Versions/A/Headers/MBLMetaWear.h; sourceTree = "<group>"; };
-		01A3F44B2D9BB398DB68C65FC3357C08 /* MBLRMSAccelerometerData.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MBLRMSAccelerometerData.h; path = MetaWear.framework/Versions/A/Headers/MBLRMSAccelerometerData.h; sourceTree = "<group>"; };
+		018CCE020479017F0E5FAF951F1E3F3A /* MBLAccelerometerData.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MBLAccelerometerData.h; path = MetaWear.framework/Versions/A/Headers/MBLAccelerometerData.h; sourceTree = "<group>"; };
+		0279280AA83E95C14B8F9B3C7A8EF1F6 /* BFCancellationTokenRegistration.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BFCancellationTokenRegistration.h; path = Bolts/Common/BFCancellationTokenRegistration.h; sourceTree = "<group>"; };
 		02DA4526846CB32677AEB3C108C9FBC8 /* libFastCoding.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libFastCoding.a; sourceTree = BUILT_PRODUCTS_DIR; };
-		02FF06585C3E8E594C596EBB6C9CEC01 /* BFTaskCompletionSource.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = BFTaskCompletionSource.m; path = Bolts/Common/BFTaskCompletionSource.m; sourceTree = "<group>"; };
-		03BDFC7E63F8B7A31F85978968628529 /* MBLI2C.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MBLI2C.h; path = MetaWear.framework/Versions/A/Headers/MBLI2C.h; sourceTree = "<group>"; };
-		04A0B2ACB600685403987BFD7735A5D1 /* MBLNeopixel.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MBLNeopixel.h; path = MetaWear.framework/Versions/A/Headers/MBLNeopixel.h; sourceTree = "<group>"; };
-		06401EA33F2BF1D45D98B7404414D845 /* MBLMechanicalSwitch.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MBLMechanicalSwitch.h; path = MetaWear.framework/Versions/A/Headers/MBLMechanicalSwitch.h; sourceTree = "<group>"; };
+		02FCDC0489956AF6B1D97EC474D70B19 /* Bolts.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = Bolts.m; path = Bolts/Common/Bolts.m; sourceTree = "<group>"; };
+		03831D69BC42CF31195786237E7C4CA2 /* MBLTimer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MBLTimer.h; path = MetaWear.framework/Versions/A/Headers/MBLTimer.h; sourceTree = "<group>"; };
+		0827BAE921A69715BA5D43430BF85A9F /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.3.sdk/System/Library/Frameworks/QuartzCore.framework; sourceTree = DEVELOPER_DIR; };
 		0A2CDD2BE612C62E15467A04A9E19328 /* Pods-SwiftStarter.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SwiftStarter.release.xcconfig"; sourceTree = "<group>"; };
-		0AFAB2D5D52BD4740A86A1890660FA2A /* BFCancellationToken.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BFCancellationToken.h; path = Bolts/Common/BFCancellationToken.h; sourceTree = "<group>"; };
 		0C109716CBE8B592169893524B41E342 /* Pods-SwiftStarter.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SwiftStarter.debug.xcconfig"; sourceTree = "<group>"; };
-		0C7717C72F79B35B1DDAF060D5F537B2 /* MBLNumericData.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MBLNumericData.h; path = MetaWear.framework/Versions/A/Headers/MBLNumericData.h; sourceTree = "<group>"; };
-		0CC1F1998668C3B38A2D60F70AC442F9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		0CD774DFD4B06504E5B290A9D9BBAE04 /* Bolts.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = Bolts.h; path = Bolts/Common/Bolts.h; sourceTree = "<group>"; };
-		136768630E5BF9D0BD4A8D4B514ADB14 /* BFCancellationTokenSource.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = BFCancellationTokenSource.m; path = Bolts/Common/BFCancellationTokenSource.m; sourceTree = "<group>"; };
-		139F34EF6F819FD03AD728F6212F28CB /* MBLAccelerometerBMI160MotionEvent.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MBLAccelerometerBMI160MotionEvent.h; path = MetaWear.framework/Versions/A/Headers/MBLAccelerometerBMI160MotionEvent.h; sourceTree = "<group>"; };
-		15B35C40CF33CB3A5AC9E15F2FE3456D /* MBLGyroBMI160.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MBLGyroBMI160.h; path = MetaWear.framework/Versions/A/Headers/MBLGyroBMI160.h; sourceTree = "<group>"; };
-		17D1030308A2DC449E3A30F12F973A4D /* MetaWear.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = MetaWear.framework; sourceTree = "<group>"; };
-		17F636DED5CB353E81F91E5A7ABBA929 /* MBLANCSEventData.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MBLANCSEventData.h; path = MetaWear.framework/Versions/A/Headers/MBLANCSEventData.h; sourceTree = "<group>"; };
-		1CE3D00C12DC2DDCDBF6C49E5B79EC68 /* MBLGyro.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MBLGyro.h; path = MetaWear.framework/Versions/A/Headers/MBLGyro.h; sourceTree = "<group>"; };
-		209EDF714612893ECE434CE172D6B7CA /* MBLModule.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MBLModule.h; path = MetaWear.framework/Versions/A/Headers/MBLModule.h; sourceTree = "<group>"; };
-		21CB2DB5A94591F5F11DE23EFE9E0F2E /* MBLAccelerometerBMA255.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MBLAccelerometerBMA255.h; path = MetaWear.framework/Versions/A/Headers/MBLAccelerometerBMA255.h; sourceTree = "<group>"; };
-		2B9BA367CE7EAF2597511A1C8F13AE58 /* MBLMagnetometerData.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MBLMagnetometerData.h; path = MetaWear.framework/Versions/A/Headers/MBLMagnetometerData.h; sourceTree = "<group>"; };
+		0C8AE32BA6BBBC052476D6E24F991397 /* MBLOrientationData.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MBLOrientationData.h; path = MetaWear.framework/Versions/A/Headers/MBLOrientationData.h; sourceTree = "<group>"; };
+		101C27889F8D660B7C442D59FF6EFF77 /* BFCancellationToken.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BFCancellationToken.h; path = Bolts/Common/BFCancellationToken.h; sourceTree = "<group>"; };
+		1068BF1FE6E34859E2F21F74CD9090B3 /* MBProgressHUD-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "MBProgressHUD-prefix.pch"; sourceTree = "<group>"; };
+		13C8E7C8766FD93B2BC378F5D4DAB14D /* MBLGPIO.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MBLGPIO.h; path = MetaWear.framework/Versions/A/Headers/MBLGPIO.h; sourceTree = "<group>"; };
+		13CE81D934F02954C10F92C28D720539 /* MBLBarometerBosch.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MBLBarometerBosch.h; path = MetaWear.framework/Versions/A/Headers/MBLBarometerBosch.h; sourceTree = "<group>"; };
+		13FA8104D69E4B6550EFF77E38670F3E /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		14CFFE7DF1BDC435AE72C2462FBF3A43 /* MBLBarometerBME280.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MBLBarometerBME280.h; path = MetaWear.framework/Versions/A/Headers/MBLBarometerBME280.h; sourceTree = "<group>"; };
+		16B054B035D7C0D8D44374104B0D1241 /* BFTask+Exceptions.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "BFTask+Exceptions.m"; path = "Bolts/Common/BFTask+Exceptions.m"; sourceTree = "<group>"; };
+		1E76EEE7B60E66A52EB34C5076D00025 /* MBLPhotometerTCS3472.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MBLPhotometerTCS3472.h; path = MetaWear.framework/Versions/A/Headers/MBLPhotometerTCS3472.h; sourceTree = "<group>"; };
+		24D6E6A525AC35BC9631EA7C3A29ED0F /* MBLHygrometerBME280.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MBLHygrometerBME280.h; path = MetaWear.framework/Versions/A/Headers/MBLHygrometerBME280.h; sourceTree = "<group>"; };
+		25E840D218975C5CE8B37AD6ABD2C546 /* MBLLED.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MBLLED.h; path = MetaWear.framework/Versions/A/Headers/MBLLED.h; sourceTree = "<group>"; };
+		263A9C6052532D00950AC3BB0E8D50C4 /* MBLRGBData.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MBLRGBData.h; path = MetaWear.framework/Versions/A/Headers/MBLRGBData.h; sourceTree = "<group>"; };
+		26FCC5F48AEB905A809789C93A164B67 /* MBLNumericData.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MBLNumericData.h; path = MetaWear.framework/Versions/A/Headers/MBLNumericData.h; sourceTree = "<group>"; };
+		2B48A7DB78F0743F12B57F0D44F4091C /* MBLTemperature.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MBLTemperature.h; path = MetaWear.framework/Versions/A/Headers/MBLTemperature.h; sourceTree = "<group>"; };
+		2DB47C198C7B4CE549ACE2163761E1F1 /* MBLProximityTSL2671.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MBLProximityTSL2671.h; path = MetaWear.framework/Versions/A/Headers/MBLProximityTSL2671.h; sourceTree = "<group>"; };
 		302F4D2F77D0F83100621EA261C69044 /* Pods-SwiftStarterTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SwiftStarterTests-acknowledgements.plist"; sourceTree = "<group>"; };
-		31228BE54E3AA20E1EC780F7A899B693 /* MBLData.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MBLData.h; path = MetaWear.framework/Versions/A/Headers/MBLData.h; sourceTree = "<group>"; };
-		3278AB996696326032BFAE184BD24762 /* MBLGyroData.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MBLGyroData.h; path = MetaWear.framework/Versions/A/Headers/MBLGyroData.h; sourceTree = "<group>"; };
-		342DF0AA8CC662F1440413163734C4DA /* MBLAccelerometer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MBLAccelerometer.h; path = MetaWear.framework/Versions/A/Headers/MBLAccelerometer.h; sourceTree = "<group>"; };
-		34BCDB973F7CC07EAF8E24B3AE0CE608 /* BFExecutor.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = BFExecutor.m; path = Bolts/Common/BFExecutor.m; sourceTree = "<group>"; };
-		39FB2BE2CCA51FD105D2D7C3D70FE8ED /* MBLI2CData.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MBLI2CData.h; path = MetaWear.framework/Versions/A/Headers/MBLI2CData.h; sourceTree = "<group>"; };
-		3B7E8DDEBD38FCE8DB93DA8F291CDCE9 /* MBProgressHUD.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = MBProgressHUD.xcconfig; sourceTree = "<group>"; };
-		3E7A2B5DAAA2A256E2A961D657781F14 /* MBLFilter.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MBLFilter.h; path = MetaWear.framework/Versions/A/Headers/MBLFilter.h; sourceTree = "<group>"; };
-		45C72EB02E5A72C0C9573499E9F4AB51 /* BFTask+MBLExtensions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "BFTask+MBLExtensions.h"; path = "MetaWear.framework/Versions/A/Headers/BFTask+MBLExtensions.h"; sourceTree = "<group>"; };
-		4700B2E694C2A229B2D1A51BA81CE969 /* MBLLED.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MBLLED.h; path = MetaWear.framework/Versions/A/Headers/MBLLED.h; sourceTree = "<group>"; };
-		4C376BFCF6069821D9E088544299DA09 /* MBLDataSample.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MBLDataSample.h; path = MetaWear.framework/Versions/A/Headers/MBLDataSample.h; sourceTree = "<group>"; };
-		4D5C8DF9F14502981DB50D79F9251025 /* FastCoding-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "FastCoding-prefix.pch"; sourceTree = "<group>"; };
-		4DFC69FAAA7F653D46343A056A2BF9E2 /* MBLMagnetometer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MBLMagnetometer.h; path = MetaWear.framework/Versions/A/Headers/MBLMagnetometer.h; sourceTree = "<group>"; };
-		4EDA3E75A93CBA496CC5EBD39477E258 /* MBLExternalThermistor.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MBLExternalThermistor.h; path = MetaWear.framework/Versions/A/Headers/MBLExternalThermistor.h; sourceTree = "<group>"; };
+		318D3E39371FEF1D94EA9EF2A2B395F7 /* MBLMechanicalSwitch.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MBLMechanicalSwitch.h; path = MetaWear.framework/Versions/A/Headers/MBLMechanicalSwitch.h; sourceTree = "<group>"; };
+		32B0CE3F07E53F296BE5A9BA134220B3 /* BFTask.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = BFTask.m; path = Bolts/Common/BFTask.m; sourceTree = "<group>"; };
+		335D88EEA2E9060CD0A05A6434FC1350 /* MBLAccelerometerBMA255.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MBLAccelerometerBMA255.h; path = MetaWear.framework/Versions/A/Headers/MBLAccelerometerBMA255.h; sourceTree = "<group>"; };
+		37AC75319E954CBB56DF1C5313E675B4 /* BFExecutor.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BFExecutor.h; path = Bolts/Common/BFExecutor.h; sourceTree = "<group>"; };
+		3C8BE9E538194813409F31DBE2CF1770 /* BFTask+Exceptions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "BFTask+Exceptions.h"; path = "Bolts/Common/BFTask+Exceptions.h"; sourceTree = "<group>"; };
+		3DDE8DF09F02863BAFB4B1C8293352C7 /* MBLMetaWear.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MBLMetaWear.h; path = MetaWear.framework/Versions/A/Headers/MBLMetaWear.h; sourceTree = "<group>"; };
+		3EE14AEDD313BDC3DB52D5924552DD79 /* MBLAmbientLight.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MBLAmbientLight.h; path = MetaWear.framework/Versions/A/Headers/MBLAmbientLight.h; sourceTree = "<group>"; };
+		409A08069C6F5A0C56C2119287CD061C /* MBLData.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MBLData.h; path = MetaWear.framework/Versions/A/Headers/MBLData.h; sourceTree = "<group>"; };
+		4498A6B64CB733B03B364007FA6ADA46 /* FastCoding.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = FastCoding.xcconfig; sourceTree = "<group>"; };
+		4546F7C0D3BCC697FC26226A0C7D5F1A /* MBLBarometer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MBLBarometer.h; path = MetaWear.framework/Versions/A/Headers/MBLBarometer.h; sourceTree = "<group>"; };
+		4741B4E8F925AA9DC0698CBE7CEBFC22 /* Bolts.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = Bolts.h; path = Bolts/Common/Bolts.h; sourceTree = "<group>"; };
+		4D61E0AC85B871F86429371B0322ECAE /* MBLI2C.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MBLI2C.h; path = MetaWear.framework/Versions/A/Headers/MBLI2C.h; sourceTree = "<group>"; };
+		4F9CA9782F010AE28A10A3497AF1FBBE /* bmi160.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = bmi160.h; path = MetaWear.framework/Versions/A/Headers/bmi160.h; sourceTree = "<group>"; };
 		508C366395C1AB2EFE37ED0D8093A9F7 /* libMBProgressHUD.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libMBProgressHUD.a; sourceTree = BUILT_PRODUCTS_DIR; };
-		53425AA78DADC796A369F652E90E76DF /* MetaWear.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MetaWear.h; path = MetaWear.framework/Versions/A/Headers/MetaWear.h; sourceTree = "<group>"; };
+		50EFFE97F7447544D4090C695AA64718 /* MBLMetaWearManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MBLMetaWearManager.h; path = MetaWear.framework/Versions/A/Headers/MBLMetaWearManager.h; sourceTree = "<group>"; };
 		53BA25A5CC81D414BCF6F2574A9E356F /* Pods-SwiftStarterTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-SwiftStarterTests-acknowledgements.markdown"; sourceTree = "<group>"; };
-		561132089784929776A89FDDD151F7B7 /* MBLConductance.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MBLConductance.h; path = MetaWear.framework/Versions/A/Headers/MBLConductance.h; sourceTree = "<group>"; };
 		590116D814684DDD9989488B7773E027 /* Pods-SwiftStarter-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SwiftStarter-acknowledgements.plist"; sourceTree = "<group>"; };
-		5A643DD10F9E32E41BF4CB8B0C59AD09 /* BFCancellationTokenSource.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BFCancellationTokenSource.h; path = Bolts/Common/BFCancellationTokenSource.h; sourceTree = "<group>"; };
 		5A883ADC96153E72393E2ADB777EFEA2 /* libPods-SwiftStarterTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-SwiftStarterTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		5AD449A75CBD99755B78098F34389C0F /* MBLBarometerBME280.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MBLBarometerBME280.h; path = MetaWear.framework/Versions/A/Headers/MBLBarometerBME280.h; sourceTree = "<group>"; };
-		5B84C7C4CC44D6CF295B73E7A989809B /* MBProgressHUD-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "MBProgressHUD-prefix.pch"; sourceTree = "<group>"; };
-		5E637E7296289DF49125A228B572B8B5 /* FastCoder.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FastCoder.m; path = FastCoder/FastCoder.m; sourceTree = "<group>"; };
+		5D3BF3453DE185873D1084AB9B504BE9 /* MBLDataSwitch.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MBLDataSwitch.h; path = MetaWear.framework/Versions/A/Headers/MBLDataSwitch.h; sourceTree = "<group>"; };
+		5D9027F399208DD6531C5C418F490795 /* MBLEntityModule.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MBLEntityModule.h; path = MetaWear.framework/Versions/A/Headers/MBLEntityModule.h; sourceTree = "<group>"; };
+		5FCA5CB193FE5B3B070501B54C8B63C2 /* Bolts.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Bolts.xcconfig; sourceTree = "<group>"; };
+		61FE94CBCE30CCEC7711ED0A8D48F3D9 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.3.sdk/System/Library/Frameworks/CoreGraphics.framework; sourceTree = DEVELOPER_DIR; };
 		626D88CC015BAC1EC76EFEEC5F205523 /* Pods-SwiftStarter-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-SwiftStarter-resources.sh"; sourceTree = "<group>"; };
+		62847E8BDE07BBC2EC7FD942CF965A21 /* MBLGyroBMI160.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MBLGyroBMI160.h; path = MetaWear.framework/Versions/A/Headers/MBLGyroBMI160.h; sourceTree = "<group>"; };
 		63112E692DEC8450D38749FC87829F9F /* Pods-SwiftStarterTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SwiftStarterTests.debug.xcconfig"; sourceTree = "<group>"; };
+		65127A32DB31A32F5451679913CB7968 /* MBLExternalThermistor.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MBLExternalThermistor.h; path = MetaWear.framework/Versions/A/Headers/MBLExternalThermistor.h; sourceTree = "<group>"; };
 		6BBCB7DDC031CE97EFC7972E3F9E2631 /* Pods-SwiftStarter-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-SwiftStarter-acknowledgements.markdown"; sourceTree = "<group>"; };
-		7123DD4462C4E7CCFCC17027BDE21655 /* MBLAmbientLightLTR329.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MBLAmbientLightLTR329.h; path = MetaWear.framework/Versions/A/Headers/MBLAmbientLightLTR329.h; sourceTree = "<group>"; };
+		6CF8961713315A4F50228F356A86157B /* MBLAccelerometerBoschLowOrHighGEvent.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MBLAccelerometerBoschLowOrHighGEvent.h; path = MetaWear.framework/Versions/A/Headers/MBLAccelerometerBoschLowOrHighGEvent.h; sourceTree = "<group>"; };
+		710D4A6F2CC9EC22AAB0AF6DECF9324C /* MBProgressHUD-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "MBProgressHUD-dummy.m"; sourceTree = "<group>"; };
+		71C3604FE16304D5FE34B0D62D473674 /* MBLHygrometer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MBLHygrometer.h; path = MetaWear.framework/Versions/A/Headers/MBLHygrometer.h; sourceTree = "<group>"; };
 		71E0790672CCC1B3297C52FC95E18EFE /* Pods-SwiftStarter-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-SwiftStarter-frameworks.sh"; sourceTree = "<group>"; };
-		7254EC5991A782BE317F5E22824A9652 /* MBLHygrometerBME280.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MBLHygrometerBME280.h; path = MetaWear.framework/Versions/A/Headers/MBLHygrometerBME280.h; sourceTree = "<group>"; };
-		72D82899C4D8F47DC5EA3D5960A46206 /* MBLMagnetometerBMM150.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MBLMagnetometerBMM150.h; path = MetaWear.framework/Versions/A/Headers/MBLMagnetometerBMM150.h; sourceTree = "<group>"; };
-		75945F6A2B9F221BB750F0863E707C65 /* MBLBarometerBosch.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MBLBarometerBosch.h; path = MetaWear.framework/Versions/A/Headers/MBLBarometerBosch.h; sourceTree = "<group>"; };
-		7B83E0EB38F66DF5A5A3FFBC135352D0 /* BFTask.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = BFTask.m; path = Bolts/Common/BFTask.m; sourceTree = "<group>"; };
-		7DC4926651A8B3DDFCE03006AEC4DE51 /* BFCancellationToken.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = BFCancellationToken.m; path = Bolts/Common/BFCancellationToken.m; sourceTree = "<group>"; };
-		7EAC4C2107FF4E9EE9EF5303317C4167 /* bmi160.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = bmi160.h; path = MetaWear.framework/Versions/A/Headers/bmi160.h; sourceTree = "<group>"; };
-		8014BAE2819B0775DF0EED3824214EF6 /* MBLMetaWearManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MBLMetaWearManager.h; path = MetaWear.framework/Versions/A/Headers/MBLMetaWearManager.h; sourceTree = "<group>"; };
-		8237CE1010D00CDEA35E94099693F1A5 /* Bolts.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = Bolts.m; path = Bolts/Common/Bolts.m; sourceTree = "<group>"; };
+		76B08A0885437C12AD4EA095CB6BD51E /* BFTaskCompletionSource.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BFTaskCompletionSource.h; path = Bolts/Common/BFTaskCompletionSource.h; sourceTree = "<group>"; };
+		76F6DB0DC66CA3CEA1F166706FE00319 /* MBLEntityEvent.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MBLEntityEvent.h; path = MetaWear.framework/Versions/A/Headers/MBLEntityEvent.h; sourceTree = "<group>"; };
+		78669375DB73D089A282CD019DE15848 /* MBLProximity.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MBLProximity.h; path = MetaWear.framework/Versions/A/Headers/MBLProximity.h; sourceTree = "<group>"; };
+		7C61C3612DB672A693BE1ACCDB8E13D7 /* MBLNeopixelStrand.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MBLNeopixelStrand.h; path = MetaWear.framework/Versions/A/Headers/MBLNeopixelStrand.h; sourceTree = "<group>"; };
+		7DDD97934898963C238E4186B1424977 /* MBLSerial.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MBLSerial.h; path = MetaWear.framework/Versions/A/Headers/MBLSerial.h; sourceTree = "<group>"; };
+		7FD0B4170016FE52E047ECD2D2C59045 /* MBLGyroData.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MBLGyroData.h; path = MetaWear.framework/Versions/A/Headers/MBLGyroData.h; sourceTree = "<group>"; };
 		83BF9632F5427841CD72BD824209C8B3 /* Pods-SwiftStarterUITests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-SwiftStarterUITests-acknowledgements.markdown"; sourceTree = "<group>"; };
-		86926FE2CC6881969B7D9642B2AA54B7 /* MBProgressHUD.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = MBProgressHUD.h; sourceTree = "<group>"; };
-		88F97DD108EE64460CEDC0418F17CD1E /* FastCoder.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FastCoder.h; path = FastCoder/FastCoder.h; sourceTree = "<group>"; };
-		890541463A7CD046723AA8449173A977 /* MBLANCS.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MBLANCS.h; path = MetaWear.framework/Versions/A/Headers/MBLANCS.h; sourceTree = "<group>"; };
-		895240404BE6448F03B1044318989747 /* Bolts.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Bolts.xcconfig; sourceTree = "<group>"; };
-		89C24EDB1BD6E725492ACC2D36F9DA06 /* MBLBarometerBMP280.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MBLBarometerBMP280.h; path = MetaWear.framework/Versions/A/Headers/MBLBarometerBMP280.h; sourceTree = "<group>"; };
-		89E4514DEF61E835DA6B673047BA2146 /* MBLiBeacon.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MBLiBeacon.h; path = MetaWear.framework/Versions/A/Headers/MBLiBeacon.h; sourceTree = "<group>"; };
-		8B1211C7F4BAE7A5B7AD1BC06C1894EA /* MBLGPIOPin.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MBLGPIOPin.h; path = MetaWear.framework/Versions/A/Headers/MBLGPIOPin.h; sourceTree = "<group>"; };
-		8C443C620D1EC62C98B34DDDB0360EE9 /* MBLDeviceInfo.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MBLDeviceInfo.h; path = MetaWear.framework/Versions/A/Headers/MBLDeviceInfo.h; sourceTree = "<group>"; };
+		885932E820AC952D2F3E89490D994411 /* MBLAccelerometerMMA8452Q.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MBLAccelerometerMMA8452Q.h; path = MetaWear.framework/Versions/A/Headers/MBLAccelerometerMMA8452Q.h; sourceTree = "<group>"; };
+		899404D6C6C5E32370EC9D9C479E2ECE /* MBLDeviceInfo.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MBLDeviceInfo.h; path = MetaWear.framework/Versions/A/Headers/MBLDeviceInfo.h; sourceTree = "<group>"; };
+		8C417453D804AD734AC804AD039E0242 /* MBLHapticBuzzer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MBLHapticBuzzer.h; path = MetaWear.framework/Versions/A/Headers/MBLHapticBuzzer.h; sourceTree = "<group>"; };
+		8FF54C9F64F0D4DFDDA77FFAD505607C /* MBLSPIData.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MBLSPIData.h; path = MetaWear.framework/Versions/A/Headers/MBLSPIData.h; sourceTree = "<group>"; };
 		90D87A3F105B34D98CC5FB8335EBEBD8 /* Pods-SwiftStarterUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SwiftStarterUITests.debug.xcconfig"; sourceTree = "<group>"; };
-		9246C6A8882D01324977D38E25AE48A0 /* MBLAmbientLight.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MBLAmbientLight.h; path = MetaWear.framework/Versions/A/Headers/MBLAmbientLight.h; sourceTree = "<group>"; };
+		9283F191E80795C46B0EAC2362354A6A /* BFCancellationToken.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = BFCancellationToken.m; path = Bolts/Common/BFCancellationToken.m; sourceTree = "<group>"; };
 		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		94785B7183BC5A6A1E66C6FBA22B10D4 /* MBLProximity.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MBLProximity.h; path = MetaWear.framework/Versions/A/Headers/MBLProximity.h; sourceTree = "<group>"; };
+		93D9F93B01B14DD8E3F21006C8E13B26 /* MBLI2CData.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MBLI2CData.h; path = MetaWear.framework/Versions/A/Headers/MBLI2CData.h; sourceTree = "<group>"; };
 		95E9CEF220B4C05111B92C0BE1AAD0E1 /* libPods-SwiftStarter.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-SwiftStarter.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		98CC3FA177FD31D2B2F97A322B535063 /* MBLEntityEvent.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MBLEntityEvent.h; path = MetaWear.framework/Versions/A/Headers/MBLEntityEvent.h; sourceTree = "<group>"; };
-		98F60A641A1E983366A38E0F6503F2D7 /* MBLEntityModule.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MBLEntityModule.h; path = MetaWear.framework/Versions/A/Headers/MBLEntityModule.h; sourceTree = "<group>"; };
-		9BD88B438755716FD5F6653871849BB6 /* FastCoding-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "FastCoding-dummy.m"; sourceTree = "<group>"; };
-		9C461690C64B34209D6F33BA794B670B /* MBLNeopixelStrand.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MBLNeopixelStrand.h; path = MetaWear.framework/Versions/A/Headers/MBLNeopixelStrand.h; sourceTree = "<group>"; };
-		9E61442E02D97DCB796D08D47A61E1CA /* BFTask.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BFTask.h; path = Bolts/Common/BFTask.h; sourceTree = "<group>"; };
+		98B897C371A1D1EC278B74DCF3A505E8 /* MBLStringData.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MBLStringData.h; path = MetaWear.framework/Versions/A/Headers/MBLStringData.h; sourceTree = "<group>"; };
+		98E3DD6105FB25640CCA193078C9724B /* MBLSettings.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MBLSettings.h; path = MetaWear.framework/Versions/A/Headers/MBLSettings.h; sourceTree = "<group>"; };
+		9B6D68CD7CF5381934661A18428B10D6 /* MBLConductance.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MBLConductance.h; path = MetaWear.framework/Versions/A/Headers/MBLConductance.h; sourceTree = "<group>"; };
+		9EA4BDB12CEA0FA4B632A1DA9BC392B6 /* MBProgressHUD.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = MBProgressHUD.h; sourceTree = "<group>"; };
 		9EEB5E67D61ACCD7DEF71ED476D4DE0A /* Pods-SwiftStarter-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-SwiftStarter-dummy.m"; sourceTree = "<group>"; };
 		9F72818606A133456218279B487BCFE8 /* Pods-SwiftStarterTests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-SwiftStarterTests-frameworks.sh"; sourceTree = "<group>"; };
-		A08FF831E8936B05513BEBF43909BFA7 /* MBLPhotometerTCS3472.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MBLPhotometerTCS3472.h; path = MetaWear.framework/Versions/A/Headers/MBLPhotometerTCS3472.h; sourceTree = "<group>"; };
-		A0E7B0F16ADE8A9997E0F5F9231BA40F /* MBProgressHUD-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "MBProgressHUD-dummy.m"; sourceTree = "<group>"; };
-		A2D3BC72D1517AE74E04C2F04FF502FF /* MBLRGBData.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MBLRGBData.h; path = MetaWear.framework/Versions/A/Headers/MBLRGBData.h; sourceTree = "<group>"; };
-		A6D5ABE53F1EE2A43D2D32EF7B73AABC /* MBLAccelerometerBMA255MotionEvent.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MBLAccelerometerBMA255MotionEvent.h; path = MetaWear.framework/Versions/A/Headers/MBLAccelerometerBMA255MotionEvent.h; sourceTree = "<group>"; };
-		AC5CA402A9B944367122D0886F965FF4 /* MBLEvent.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MBLEvent.h; path = MetaWear.framework/Versions/A/Headers/MBLEvent.h; sourceTree = "<group>"; };
-		B17FD221BBB477515B29D68EEE5177C2 /* MBLAccelerometerBMI160.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MBLAccelerometerBMI160.h; path = MetaWear.framework/Versions/A/Headers/MBLAccelerometerBMI160.h; sourceTree = "<group>"; };
-		B2C4A76B6AFC1ABC19A242A503DEE13E /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.3.sdk/System/Library/Frameworks/CoreGraphics.framework; sourceTree = DEVELOPER_DIR; };
-		B6427D6EDE94265CD45B78CB153621C5 /* MBLPhotometer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MBLPhotometer.h; path = MetaWear.framework/Versions/A/Headers/MBLPhotometer.h; sourceTree = "<group>"; };
+		A1D66ED87CA41EA61D84A4EE867FE609 /* MBLRegister.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MBLRegister.h; path = MetaWear.framework/Versions/A/Headers/MBLRegister.h; sourceTree = "<group>"; };
+		A82EA19D0D487C5F8C20F822A5A99113 /* BFCancellationTokenRegistration.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = BFCancellationTokenRegistration.m; path = Bolts/Common/BFCancellationTokenRegistration.m; sourceTree = "<group>"; };
+		A884CD6FFF83CB2D46EC5F652BB57D62 /* MBLBarometerBMP280.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MBLBarometerBMP280.h; path = MetaWear.framework/Versions/A/Headers/MBLBarometerBMP280.h; sourceTree = "<group>"; };
+		A8A686889C7F9600995A629A9D804C1F /* MBLGPIOPin.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MBLGPIOPin.h; path = MetaWear.framework/Versions/A/Headers/MBLGPIOPin.h; sourceTree = "<group>"; };
+		A8BE2049E36304BD67A7EECDDD0A499B /* MBProgressHUD.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = MBProgressHUD.xcconfig; sourceTree = "<group>"; };
+		B0C0AB10040F9B82CA09DEB0D6E4D730 /* MetaWear.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = MetaWear.framework; sourceTree = "<group>"; };
+		B0DCF257E69B5AD2E32D1A6F75AF0A60 /* MBLModule.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MBLModule.h; path = MetaWear.framework/Versions/A/Headers/MBLModule.h; sourceTree = "<group>"; };
+		B114CE4133492AE8042AEFE08C426C9D /* MBLAmbientLightLTR329.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MBLAmbientLightLTR329.h; path = MetaWear.framework/Versions/A/Headers/MBLAmbientLightLTR329.h; sourceTree = "<group>"; };
+		B12726F84FA8A887DD053F6091C161F7 /* Bolts-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Bolts-dummy.m"; sourceTree = "<group>"; };
+		B1B7434A7652241D3F9B06FA39A3FE1D /* MBLANCS.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MBLANCS.h; path = MetaWear.framework/Versions/A/Headers/MBLANCS.h; sourceTree = "<group>"; };
+		B37B4F543BC505FA677F7A24A7379F3E /* BFCancellationTokenSource.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BFCancellationTokenSource.h; path = Bolts/Common/BFCancellationTokenSource.h; sourceTree = "<group>"; };
+		B45FC9C72A2E9DBC347130DA604177FB /* MBLMagnetometer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MBLMagnetometer.h; path = MetaWear.framework/Versions/A/Headers/MBLMagnetometer.h; sourceTree = "<group>"; };
+		B4C313C0FA06F7548F86739FBB4AA2C8 /* MBLConstants.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MBLConstants.h; path = MetaWear.framework/Versions/A/Headers/MBLConstants.h; sourceTree = "<group>"; };
+		B5E08E494E6BCC916BD89FAFAF298F71 /* FastCoding-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "FastCoding-prefix.pch"; sourceTree = "<group>"; };
 		B667B81D329261FE8E2804A2C3C776E9 /* Pods-SwiftStarterTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-SwiftStarterTests-dummy.m"; sourceTree = "<group>"; };
-		B66912111C85E0485FFEAF9C689D8467 /* MBLBarometer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MBLBarometer.h; path = MetaWear.framework/Versions/A/Headers/MBLBarometer.h; sourceTree = "<group>"; };
-		BEDA50046B878AEF74CE52715647A3FB /* BFCancellationTokenRegistration.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = BFCancellationTokenRegistration.m; path = Bolts/Common/BFCancellationTokenRegistration.m; sourceTree = "<group>"; };
-		C0D4ABD9E071A5433CB548F188FCB3B3 /* BFExecutor.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BFExecutor.h; path = Bolts/Common/BFExecutor.h; sourceTree = "<group>"; };
-		C0D4BCB3B257999BBAF7474E413E6D26 /* MBLConstants.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MBLConstants.h; path = MetaWear.framework/Versions/A/Headers/MBLConstants.h; sourceTree = "<group>"; };
-		C1540A79049261EB504A40827704751C /* MBLOrientationData.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MBLOrientationData.h; path = MetaWear.framework/Versions/A/Headers/MBLOrientationData.h; sourceTree = "<group>"; };
-		C3014FFF7F7F22E92D7EBFCC776C2179 /* MBLSettings.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MBLSettings.h; path = MetaWear.framework/Versions/A/Headers/MBLSettings.h; sourceTree = "<group>"; };
-		C386378CC66F4635D276B51E5D920AFE /* MBLAccelerometerBosch.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MBLAccelerometerBosch.h; path = MetaWear.framework/Versions/A/Headers/MBLAccelerometerBosch.h; sourceTree = "<group>"; };
-		C514DECEAE0D0FADD30E6F603D1A3753 /* MBLHapticBuzzer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MBLHapticBuzzer.h; path = MetaWear.framework/Versions/A/Headers/MBLHapticBuzzer.h; sourceTree = "<group>"; };
-		C5B64A8AE59E58FA2B5CF81F55C6C6C2 /* MBLDataSwitch.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MBLDataSwitch.h; path = MetaWear.framework/Versions/A/Headers/MBLDataSwitch.h; sourceTree = "<group>"; };
+		B69C265BF444296EDC9F295469C650A7 /* BFTaskCompletionSource.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = BFTaskCompletionSource.m; path = Bolts/Common/BFTaskCompletionSource.m; sourceTree = "<group>"; };
+		BBA7BF1CAD126F36DEB7A341E20C747F /* MBLDataSample.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MBLDataSample.h; path = MetaWear.framework/Versions/A/Headers/MBLDataSample.h; sourceTree = "<group>"; };
+		C14810B85B836BAD189650C74D543242 /* MBLEvent.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MBLEvent.h; path = MetaWear.framework/Versions/A/Headers/MBLEvent.h; sourceTree = "<group>"; };
+		C22921F32EF22E0FD18A7943F3C9EC97 /* MBLAccelerometer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MBLAccelerometer.h; path = MetaWear.framework/Versions/A/Headers/MBLAccelerometer.h; sourceTree = "<group>"; };
+		C32FFD7FF2E3EBB0DCB3064544346A25 /* MetaWear.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MetaWear.h; path = MetaWear.framework/Versions/A/Headers/MetaWear.h; sourceTree = "<group>"; };
 		C7894442CD320639064F9BF9EE2C621D /* Pods-SwiftStarterUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SwiftStarterUITests.release.xcconfig"; sourceTree = "<group>"; };
-		CA3FFB0ADC89E0E9326DFE176C4CF533 /* MBLTimerEvent.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MBLTimerEvent.h; path = MetaWear.framework/Versions/A/Headers/MBLTimerEvent.h; sourceTree = "<group>"; };
-		CA9A1F450315E88604D88F9A4E161A7A /* BFCancellationTokenRegistration.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BFCancellationTokenRegistration.h; path = Bolts/Common/BFCancellationTokenRegistration.h; sourceTree = "<group>"; };
 		CC4ADDF718EF64D27AD9780F7057AF1D /* Pods-SwiftStarterUITests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-SwiftStarterUITests-resources.sh"; sourceTree = "<group>"; };
 		CCBF6DB8C2873D681E474308F6F0CA77 /* libPods-SwiftStarterUITests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-SwiftStarterUITests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		CF5545A099E75B2EEDAA3FDB6FC6368E /* MBLStringData.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MBLStringData.h; path = MetaWear.framework/Versions/A/Headers/MBLStringData.h; sourceTree = "<group>"; };
-		D41EE1B3A5EC4853D37D1BF84189A276 /* MBLAccelerometerData.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MBLAccelerometerData.h; path = MetaWear.framework/Versions/A/Headers/MBLAccelerometerData.h; sourceTree = "<group>"; };
-		D6026267BCF4FC26B6394385C5AC9605 /* MBLAccelerometerBoschLowOrHighGEvent.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MBLAccelerometerBoschLowOrHighGEvent.h; path = MetaWear.framework/Versions/A/Headers/MBLAccelerometerBoschLowOrHighGEvent.h; sourceTree = "<group>"; };
-		D78D9AC2DB6D8ECCE5C54E93F2D4F5DE /* MBLProximityTSL2671.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MBLProximityTSL2671.h; path = MetaWear.framework/Versions/A/Headers/MBLProximityTSL2671.h; sourceTree = "<group>"; };
+		CEA96B46863CE78DA0378C3363E3AC13 /* MBLNeopixel.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MBLNeopixel.h; path = MetaWear.framework/Versions/A/Headers/MBLNeopixel.h; sourceTree = "<group>"; };
+		D1BA0680F3D97185C63A95138791F958 /* FastCoding-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "FastCoding-dummy.m"; sourceTree = "<group>"; };
+		D78C6D23F8EE38291208115DF8150E02 /* BFExecutor.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = BFExecutor.m; path = Bolts/Common/BFExecutor.m; sourceTree = "<group>"; };
+		DA434F005A6670A5D2E4F92BCADD1F08 /* BFTask.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BFTask.h; path = Bolts/Common/BFTask.h; sourceTree = "<group>"; };
 		DC71AC097BC82D98762546ABFB1C7A5F /* libBolts.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libBolts.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		DD82FC010C3381808E41C52A2D0D89FC /* Pods-SwiftStarterUITests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SwiftStarterUITests-acknowledgements.plist"; sourceTree = "<group>"; };
-		E10A79122FF9814FD3F9E9E1D22EC27A /* MBProgressHUD.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = MBProgressHUD.m; sourceTree = "<group>"; };
-		E64C2345CF2698627D368F1899540142 /* Bolts-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Bolts-dummy.m"; sourceTree = "<group>"; };
-		E747B5E13828D28BF315CA2D6A8B9632 /* MBLTimer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MBLTimer.h; path = MetaWear.framework/Versions/A/Headers/MBLTimer.h; sourceTree = "<group>"; };
+		DDBAAF3B01B660EDFB60BE4D700F2617 /* FastCoder.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FastCoder.m; path = FastCoder/FastCoder.m; sourceTree = "<group>"; };
+		DE33520510306CAC58FCD0BF07D85A5D /* MBLTimerEvent.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MBLTimerEvent.h; path = MetaWear.framework/Versions/A/Headers/MBLTimerEvent.h; sourceTree = "<group>"; };
+		DEAC7D701EB198FD302E9695C97052C7 /* MBLRMSAccelerometerData.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MBLRMSAccelerometerData.h; path = MetaWear.framework/Versions/A/Headers/MBLRMSAccelerometerData.h; sourceTree = "<group>"; };
+		DF5D7777EA390DC54FC4826CEEE8AA20 /* BFCancellationTokenSource.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = BFCancellationTokenSource.m; path = Bolts/Common/BFCancellationTokenSource.m; sourceTree = "<group>"; };
+		E0644FE50CBD87F69D22CEFAFFADC23B /* FastCoder.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FastCoder.h; path = FastCoder/FastCoder.h; sourceTree = "<group>"; };
+		E1FADEF8A3C6AC9DECBB6C5D707015F9 /* MBLFilter.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MBLFilter.h; path = MetaWear.framework/Versions/A/Headers/MBLFilter.h; sourceTree = "<group>"; };
+		E44C950D128AD84F6AA5966D998D76ED /* MBLAccelerometerBosch.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MBLAccelerometerBosch.h; path = MetaWear.framework/Versions/A/Headers/MBLAccelerometerBosch.h; sourceTree = "<group>"; };
+		E6F4721F4C1BDF1EAFB015783A62C15B /* MBLAccelerometerBMI160MotionEvent.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MBLAccelerometerBMI160MotionEvent.h; path = MetaWear.framework/Versions/A/Headers/MBLAccelerometerBMI160MotionEvent.h; sourceTree = "<group>"; };
 		E91BBDA05F3B2E42EDA6D7B4D886DE49 /* Pods-SwiftStarterTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SwiftStarterTests.release.xcconfig"; sourceTree = "<group>"; };
 		E98FBB6D73FB66C4B6101638F21B0CC8 /* Pods-SwiftStarterTests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-SwiftStarterTests-resources.sh"; sourceTree = "<group>"; };
-		EA95707AFE803B6E6AA4A697197D4D20 /* BFTaskCompletionSource.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BFTaskCompletionSource.h; path = Bolts/Common/BFTaskCompletionSource.h; sourceTree = "<group>"; };
+		EAC1D050809B92AE0567211A5B11CC75 /* MBLMagnetometerData.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MBLMagnetometerData.h; path = MetaWear.framework/Versions/A/Headers/MBLMagnetometerData.h; sourceTree = "<group>"; };
 		EBACA1F3B29F4A7AF787A2B952BD2E68 /* Pods-SwiftStarterUITests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-SwiftStarterUITests-dummy.m"; sourceTree = "<group>"; };
-		ED185E3F940E041DEE31D97525456A22 /* MBLHygrometer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MBLHygrometer.h; path = MetaWear.framework/Versions/A/Headers/MBLHygrometer.h; sourceTree = "<group>"; };
-		EE434DE72803378D8330FB3271DA56B8 /* MBLGPIO.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MBLGPIO.h; path = MetaWear.framework/Versions/A/Headers/MBLGPIO.h; sourceTree = "<group>"; };
-		EF5D5160E16A3C852040049156827745 /* MBLRegister.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MBLRegister.h; path = MetaWear.framework/Versions/A/Headers/MBLRegister.h; sourceTree = "<group>"; };
+		EF754D6366A61C7FD8DD768916026B54 /* MBLMagnetometerBMM150.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MBLMagnetometerBMM150.h; path = MetaWear.framework/Versions/A/Headers/MBLMagnetometerBMM150.h; sourceTree = "<group>"; };
+		EF9D2515A5E4EC4FA7165F0EEDF31665 /* MBLiBeacon.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MBLiBeacon.h; path = MetaWear.framework/Versions/A/Headers/MBLiBeacon.h; sourceTree = "<group>"; };
 		F13CA0FE910A9856FA5673C1EED52E2C /* Pods-SwiftStarterUITests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-SwiftStarterUITests-frameworks.sh"; sourceTree = "<group>"; };
-		F27519A0B11FD5FFFB37FAD6557172F9 /* MBLAccelerometerMMA8452Q.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MBLAccelerometerMMA8452Q.h; path = MetaWear.framework/Versions/A/Headers/MBLAccelerometerMMA8452Q.h; sourceTree = "<group>"; };
-		F34DC0DAA7AA3D7185AD05ED33104598 /* Bolts-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Bolts-prefix.pch"; sourceTree = "<group>"; };
-		F611B91C1860141030880A2CEB4BB57D /* FastCoding.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = FastCoding.xcconfig; sourceTree = "<group>"; };
-		F8A81A86F525C549A91EF9B681BB6E16 /* MBLTemperature.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MBLTemperature.h; path = MetaWear.framework/Versions/A/Headers/MBLTemperature.h; sourceTree = "<group>"; };
+		F2EEED3876B67944FFA2CD6AD97373A0 /* MBLAccelerometerBMA255MotionEvent.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MBLAccelerometerBMA255MotionEvent.h; path = MetaWear.framework/Versions/A/Headers/MBLAccelerometerBMA255MotionEvent.h; sourceTree = "<group>"; };
+		F4D37129E7AA42258EF8495ABCF07C10 /* Bolts-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Bolts-prefix.pch"; sourceTree = "<group>"; };
+		F63C086FEBDAEC77152467E2240BA1A9 /* MBProgressHUD.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = MBProgressHUD.m; sourceTree = "<group>"; };
+		F73295CEEF90EAE064BC93322E69DEF3 /* MBLPhotometer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MBLPhotometer.h; path = MetaWear.framework/Versions/A/Headers/MBLPhotometer.h; sourceTree = "<group>"; };
+		F79F2B9765C15B2C0BA645ACF50265E7 /* BFTask+MBLExtensions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "BFTask+MBLExtensions.h"; path = "MetaWear.framework/Versions/A/Headers/BFTask+MBLExtensions.h"; sourceTree = "<group>"; };
+		F9FE98B2B9B6CB1506A7347010C7AEF0 /* MBLANCSEventData.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MBLANCSEventData.h; path = MetaWear.framework/Versions/A/Headers/MBLANCSEventData.h; sourceTree = "<group>"; };
+		FA8BECC256A68BA7D5A59427E6F80702 /* MBLAccelerometerBMI160.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MBLAccelerometerBMI160.h; path = MetaWear.framework/Versions/A/Headers/MBLAccelerometerBMI160.h; sourceTree = "<group>"; };
+		FC8F4257BE4ACE6D37C7E464A420C2C0 /* MBLGyro.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MBLGyro.h; path = MetaWear.framework/Versions/A/Headers/MBLGyro.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		0A13F10224A1DFE36E2AB37182A18176 /* Frameworks */ = {
+		4931CC2A170E9294C09A920FC2F404BC /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				48F833B65F2A5A623D14FEC689C355E2 /* Foundation.framework in Frameworks */,
+				2E574999BA61C4713AD4B3827765733E /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -232,12 +240,13 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		E81C08F5CCC0A5FBFF4559E2173164C7 /* Frameworks */ = {
+		988FA15379A4032C312C2049FB88101A /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B79D1B6F33E6229F2C9C4E039A2C3D4A /* CoreGraphics.framework in Frameworks */,
-				94FC4AE35C0F90BD510E491C20A2F830 /* Foundation.framework in Frameworks */,
+				0951ECB79A8DDBA8DC3077FA1CC84E6B /* CoreGraphics.framework in Frameworks */,
+				1C289876A4849D6798FC7F154214C5F8 /* Foundation.framework in Frameworks */,
+				2B342A1143B39C7E396A50C6540E2639 /* QuartzCore.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -259,13 +268,43 @@
 			path = "Target Support Files/Pods-SwiftStarterTests";
 			sourceTree = "<group>";
 		};
-		03DDF8A18EDBDA9A6AFBF0B4D7CB99FE /* iOS */ = {
+		048A4725A43C852D408F3638D2DF0A50 /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				B2C4A76B6AFC1ABC19A242A503DEE13E /* CoreGraphics.framework */,
-				0CC1F1998668C3B38A2D60F70AC442F9 /* Foundation.framework */,
+				5FCA5CB193FE5B3B070501B54C8B63C2 /* Bolts.xcconfig */,
+				B12726F84FA8A887DD053F6091C161F7 /* Bolts-dummy.m */,
+				F4D37129E7AA42258EF8495ABCF07C10 /* Bolts-prefix.pch */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/Bolts";
+			sourceTree = "<group>";
+		};
+		0B773CB89711902D049A5E4034DCA596 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				61FE94CBCE30CCEC7711ED0A8D48F3D9 /* CoreGraphics.framework */,
+				13FA8104D69E4B6550EFF77E38670F3E /* Foundation.framework */,
+				0827BAE921A69715BA5D43430BF85A9F /* QuartzCore.framework */,
 			);
 			name = iOS;
+			sourceTree = "<group>";
+		};
+		0F16A3E40C92A460C3CB637B36B7F042 /* FastCoding */ = {
+			isa = PBXGroup;
+			children = (
+				E0644FE50CBD87F69D22CEFAFFADC23B /* FastCoder.h */,
+				DDBAAF3B01B660EDFB60BE4D700F2617 /* FastCoder.m */,
+				DE6D3E3049CA1A6BCA699643F6C3D2FA /* Support Files */,
+			);
+			path = FastCoding;
+			sourceTree = "<group>";
+		};
+		122DA2E5084A4393C29BE363C764795C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				0B773CB89711902D049A5E4034DCA596 /* iOS */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 		14A7B75C79D963F03A16EA370F17ABF6 /* Pods-SwiftStarter */ = {
@@ -283,27 +322,6 @@
 			path = "Target Support Files/Pods-SwiftStarter";
 			sourceTree = "<group>";
 		};
-		23E7843D043EAE53ACED86A474567D22 /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				3B7E8DDEBD38FCE8DB93DA8F291CDCE9 /* MBProgressHUD.xcconfig */,
-				A0E7B0F16ADE8A9997E0F5F9231BA40F /* MBProgressHUD-dummy.m */,
-				5B84C7C4CC44D6CF295B73E7A989809B /* MBProgressHUD-prefix.pch */,
-			);
-			name = "Support Files";
-			path = "../Target Support Files/MBProgressHUD";
-			sourceTree = "<group>";
-		};
-		2C711509E7F05A063CD874F4C3E713B1 /* MBProgressHUD */ = {
-			isa = PBXGroup;
-			children = (
-				86926FE2CC6881969B7D9642B2AA54B7 /* MBProgressHUD.h */,
-				E10A79122FF9814FD3F9E9E1D22EC27A /* MBProgressHUD.m */,
-				23E7843D043EAE53ACED86A474567D22 /* Support Files */,
-			);
-			path = MBProgressHUD;
-			sourceTree = "<group>";
-		};
 		2FE262112DC3C01099E013E7CF55C7EF /* Targets Support Files */ = {
 			isa = PBXGroup;
 			children = (
@@ -314,23 +332,27 @@
 			name = "Targets Support Files";
 			sourceTree = "<group>";
 		};
-		433CD3331B6C3787F473C941B61FC68F /* Frameworks */ = {
+		4F306666D58677939637DC741C8001C9 /* Tasks */ = {
 			isa = PBXGroup;
 			children = (
-				03DDF8A18EDBDA9A6AFBF0B4D7CB99FE /* iOS */,
+				101C27889F8D660B7C442D59FF6EFF77 /* BFCancellationToken.h */,
+				9283F191E80795C46B0EAC2362354A6A /* BFCancellationToken.m */,
+				0279280AA83E95C14B8F9B3C7A8EF1F6 /* BFCancellationTokenRegistration.h */,
+				A82EA19D0D487C5F8C20F822A5A99113 /* BFCancellationTokenRegistration.m */,
+				B37B4F543BC505FA677F7A24A7379F3E /* BFCancellationTokenSource.h */,
+				DF5D7777EA390DC54FC4826CEEE8AA20 /* BFCancellationTokenSource.m */,
+				37AC75319E954CBB56DF1C5313E675B4 /* BFExecutor.h */,
+				D78C6D23F8EE38291208115DF8150E02 /* BFExecutor.m */,
+				DA434F005A6670A5D2E4F92BCADD1F08 /* BFTask.h */,
+				32B0CE3F07E53F296BE5A9BA134220B3 /* BFTask.m */,
+				3C8BE9E538194813409F31DBE2CF1770 /* BFTask+Exceptions.h */,
+				16B054B035D7C0D8D44374104B0D1241 /* BFTask+Exceptions.m */,
+				76B08A0885437C12AD4EA095CB6BD51E /* BFTaskCompletionSource.h */,
+				B69C265BF444296EDC9F295469C650A7 /* BFTaskCompletionSource.m */,
+				4741B4E8F925AA9DC0698CBE7CEBFC22 /* Bolts.h */,
+				02FCDC0489956AF6B1D97EC474D70B19 /* Bolts.m */,
 			);
-			name = Frameworks;
-			sourceTree = "<group>";
-		};
-		4966669232CC4C86A60341D14B89D84D /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				F611B91C1860141030880A2CEB4BB57D /* FastCoding.xcconfig */,
-				9BD88B438755716FD5F6653871849BB6 /* FastCoding-dummy.m */,
-				4D5C8DF9F14502981DB50D79F9251025 /* FastCoding-prefix.pch */,
-			);
-			name = "Support Files";
-			path = "../Target Support Files/FastCoding";
+			name = Tasks;
 			sourceTree = "<group>";
 		};
 		50871E25527F162F25B297A1DC1E0FC7 /* Pods-SwiftStarterUITests */ = {
@@ -348,55 +370,119 @@
 			path = "Target Support Files/Pods-SwiftStarterUITests";
 			sourceTree = "<group>";
 		};
-		5C52FD506E0D1D0C376263E680E9466D /* Bolts */ = {
+		5D6B4D3988F704E758C1CACC098611B2 /* Metawear-iOSAPI */ = {
 			isa = PBXGroup;
 			children = (
-				E96DEF8025064901DAA93853D55793DA /* Support Files */,
-				73C21E436B510DD3CCE57825FD9E8C21 /* Tasks */,
+				F79F2B9765C15B2C0BA645ACF50265E7 /* BFTask+MBLExtensions.h */,
+				4F9CA9782F010AE28A10A3497AF1FBBE /* bmi160.h */,
+				C22921F32EF22E0FD18A7943F3C9EC97 /* MBLAccelerometer.h */,
+				335D88EEA2E9060CD0A05A6434FC1350 /* MBLAccelerometerBMA255.h */,
+				F2EEED3876B67944FFA2CD6AD97373A0 /* MBLAccelerometerBMA255MotionEvent.h */,
+				FA8BECC256A68BA7D5A59427E6F80702 /* MBLAccelerometerBMI160.h */,
+				E6F4721F4C1BDF1EAFB015783A62C15B /* MBLAccelerometerBMI160MotionEvent.h */,
+				E44C950D128AD84F6AA5966D998D76ED /* MBLAccelerometerBosch.h */,
+				6CF8961713315A4F50228F356A86157B /* MBLAccelerometerBoschLowOrHighGEvent.h */,
+				018CCE020479017F0E5FAF951F1E3F3A /* MBLAccelerometerData.h */,
+				885932E820AC952D2F3E89490D994411 /* MBLAccelerometerMMA8452Q.h */,
+				3EE14AEDD313BDC3DB52D5924552DD79 /* MBLAmbientLight.h */,
+				B114CE4133492AE8042AEFE08C426C9D /* MBLAmbientLightLTR329.h */,
+				B1B7434A7652241D3F9B06FA39A3FE1D /* MBLANCS.h */,
+				F9FE98B2B9B6CB1506A7347010C7AEF0 /* MBLANCSEventData.h */,
+				4546F7C0D3BCC697FC26226A0C7D5F1A /* MBLBarometer.h */,
+				14CFFE7DF1BDC435AE72C2462FBF3A43 /* MBLBarometerBME280.h */,
+				A884CD6FFF83CB2D46EC5F652BB57D62 /* MBLBarometerBMP280.h */,
+				13CE81D934F02954C10F92C28D720539 /* MBLBarometerBosch.h */,
+				9B6D68CD7CF5381934661A18428B10D6 /* MBLConductance.h */,
+				B4C313C0FA06F7548F86739FBB4AA2C8 /* MBLConstants.h */,
+				409A08069C6F5A0C56C2119287CD061C /* MBLData.h */,
+				BBA7BF1CAD126F36DEB7A341E20C747F /* MBLDataSample.h */,
+				5D3BF3453DE185873D1084AB9B504BE9 /* MBLDataSwitch.h */,
+				899404D6C6C5E32370EC9D9C479E2ECE /* MBLDeviceInfo.h */,
+				76F6DB0DC66CA3CEA1F166706FE00319 /* MBLEntityEvent.h */,
+				5D9027F399208DD6531C5C418F490795 /* MBLEntityModule.h */,
+				C14810B85B836BAD189650C74D543242 /* MBLEvent.h */,
+				65127A32DB31A32F5451679913CB7968 /* MBLExternalThermistor.h */,
+				E1FADEF8A3C6AC9DECBB6C5D707015F9 /* MBLFilter.h */,
+				13C8E7C8766FD93B2BC378F5D4DAB14D /* MBLGPIO.h */,
+				A8A686889C7F9600995A629A9D804C1F /* MBLGPIOPin.h */,
+				FC8F4257BE4ACE6D37C7E464A420C2C0 /* MBLGyro.h */,
+				62847E8BDE07BBC2EC7FD942CF965A21 /* MBLGyroBMI160.h */,
+				7FD0B4170016FE52E047ECD2D2C59045 /* MBLGyroData.h */,
+				8C417453D804AD734AC804AD039E0242 /* MBLHapticBuzzer.h */,
+				71C3604FE16304D5FE34B0D62D473674 /* MBLHygrometer.h */,
+				24D6E6A525AC35BC9631EA7C3A29ED0F /* MBLHygrometerBME280.h */,
+				4D61E0AC85B871F86429371B0322ECAE /* MBLI2C.h */,
+				93D9F93B01B14DD8E3F21006C8E13B26 /* MBLI2CData.h */,
+				EF9D2515A5E4EC4FA7165F0EEDF31665 /* MBLiBeacon.h */,
+				25E840D218975C5CE8B37AD6ABD2C546 /* MBLLED.h */,
+				B45FC9C72A2E9DBC347130DA604177FB /* MBLMagnetometer.h */,
+				EF754D6366A61C7FD8DD768916026B54 /* MBLMagnetometerBMM150.h */,
+				EAC1D050809B92AE0567211A5B11CC75 /* MBLMagnetometerData.h */,
+				318D3E39371FEF1D94EA9EF2A2B395F7 /* MBLMechanicalSwitch.h */,
+				3DDE8DF09F02863BAFB4B1C8293352C7 /* MBLMetaWear.h */,
+				50EFFE97F7447544D4090C695AA64718 /* MBLMetaWearManager.h */,
+				B0DCF257E69B5AD2E32D1A6F75AF0A60 /* MBLModule.h */,
+				CEA96B46863CE78DA0378C3363E3AC13 /* MBLNeopixel.h */,
+				7C61C3612DB672A693BE1ACCDB8E13D7 /* MBLNeopixelStrand.h */,
+				26FCC5F48AEB905A809789C93A164B67 /* MBLNumericData.h */,
+				0C8AE32BA6BBBC052476D6E24F991397 /* MBLOrientationData.h */,
+				F73295CEEF90EAE064BC93322E69DEF3 /* MBLPhotometer.h */,
+				1E76EEE7B60E66A52EB34C5076D00025 /* MBLPhotometerTCS3472.h */,
+				78669375DB73D089A282CD019DE15848 /* MBLProximity.h */,
+				2DB47C198C7B4CE549ACE2163761E1F1 /* MBLProximityTSL2671.h */,
+				A1D66ED87CA41EA61D84A4EE867FE609 /* MBLRegister.h */,
+				263A9C6052532D00950AC3BB0E8D50C4 /* MBLRGBData.h */,
+				DEAC7D701EB198FD302E9695C97052C7 /* MBLRMSAccelerometerData.h */,
+				7DDD97934898963C238E4186B1424977 /* MBLSerial.h */,
+				98E3DD6105FB25640CCA193078C9724B /* MBLSettings.h */,
+				8FF54C9F64F0D4DFDDA77FFAD505607C /* MBLSPIData.h */,
+				98B897C371A1D1EC278B74DCF3A505E8 /* MBLStringData.h */,
+				2B48A7DB78F0743F12B57F0D44F4091C /* MBLTemperature.h */,
+				03831D69BC42CF31195786237E7C4CA2 /* MBLTimer.h */,
+				DE33520510306CAC58FCD0BF07D85A5D /* MBLTimerEvent.h */,
+				C32FFD7FF2E3EBB0DCB3064544346A25 /* MetaWear.h */,
+				AB8B8D646A6E86F8ED8690A5A8DB2FD9 /* Frameworks */,
 			);
-			path = Bolts;
-			sourceTree = "<group>";
-		};
-		73C21E436B510DD3CCE57825FD9E8C21 /* Tasks */ = {
-			isa = PBXGroup;
-			children = (
-				0AFAB2D5D52BD4740A86A1890660FA2A /* BFCancellationToken.h */,
-				7DC4926651A8B3DDFCE03006AEC4DE51 /* BFCancellationToken.m */,
-				CA9A1F450315E88604D88F9A4E161A7A /* BFCancellationTokenRegistration.h */,
-				BEDA50046B878AEF74CE52715647A3FB /* BFCancellationTokenRegistration.m */,
-				5A643DD10F9E32E41BF4CB8B0C59AD09 /* BFCancellationTokenSource.h */,
-				136768630E5BF9D0BD4A8D4B514ADB14 /* BFCancellationTokenSource.m */,
-				C0D4ABD9E071A5433CB548F188FCB3B3 /* BFExecutor.h */,
-				34BCDB973F7CC07EAF8E24B3AE0CE608 /* BFExecutor.m */,
-				9E61442E02D97DCB796D08D47A61E1CA /* BFTask.h */,
-				7B83E0EB38F66DF5A5A3FFBC135352D0 /* BFTask.m */,
-				EA95707AFE803B6E6AA4A697197D4D20 /* BFTaskCompletionSource.h */,
-				02FF06585C3E8E594C596EBB6C9CEC01 /* BFTaskCompletionSource.m */,
-				0CD774DFD4B06504E5B290A9D9BBAE04 /* Bolts.h */,
-				8237CE1010D00CDEA35E94099693F1A5 /* Bolts.m */,
-			);
-			name = Tasks;
+			path = "Metawear-iOSAPI";
 			sourceTree = "<group>";
 		};
 		7DB346D0F39D3F0E887471402A8071AB = {
 			isa = PBXGroup;
 			children = (
 				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
-				433CD3331B6C3787F473C941B61FC68F /* Frameworks */,
-				D696F332CCC6415441DCB75BBCC56F04 /* Pods */,
+				122DA2E5084A4393C29BE363C764795C /* Frameworks */,
+				BA43CD748ECCE70903271471916EC75F /* Pods */,
 				D44AE55D5F7F494B76A6D955D263BF2B /* Products */,
 				2FE262112DC3C01099E013E7CF55C7EF /* Targets Support Files */,
 			);
 			sourceTree = "<group>";
 		};
-		C70060566462AEB0BEE1B51AA5948E6E /* FastCoding */ = {
+		AB8B8D646A6E86F8ED8690A5A8DB2FD9 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				88F97DD108EE64460CEDC0418F17CD1E /* FastCoder.h */,
-				5E637E7296289DF49125A228B572B8B5 /* FastCoder.m */,
-				4966669232CC4C86A60341D14B89D84D /* Support Files */,
+				B0C0AB10040F9B82CA09DEB0D6E4D730 /* MetaWear.framework */,
 			);
-			path = FastCoding;
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		BA43CD748ECCE70903271471916EC75F /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				C0A111AACD31521C46A33FFAAFAB29DD /* Bolts */,
+				0F16A3E40C92A460C3CB637B36B7F042 /* FastCoding */,
+				D8D91C9B57B136BA9F0E185FC75C61A5 /* MBProgressHUD */,
+				5D6B4D3988F704E758C1CACC098611B2 /* Metawear-iOSAPI */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		C0A111AACD31521C46A33FFAAFAB29DD /* Bolts */ = {
+			isa = PBXGroup;
+			children = (
+				048A4725A43C852D408F3638D2DF0A50 /* Support Files */,
+				4F306666D58677939637DC741C8001C9 /* Tasks */,
+			);
+			path = Bolts;
 			sourceTree = "<group>";
 		};
 		D44AE55D5F7F494B76A6D955D263BF2B /* Products */ = {
@@ -412,124 +498,53 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		D47BDC79E78734673B6B28FAC9843A45 /* Metawear-iOSAPI */ = {
+		D704251F9C035D571D4FD0C060250966 /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				45C72EB02E5A72C0C9573499E9F4AB51 /* BFTask+MBLExtensions.h */,
-				7EAC4C2107FF4E9EE9EF5303317C4167 /* bmi160.h */,
-				342DF0AA8CC662F1440413163734C4DA /* MBLAccelerometer.h */,
-				21CB2DB5A94591F5F11DE23EFE9E0F2E /* MBLAccelerometerBMA255.h */,
-				A6D5ABE53F1EE2A43D2D32EF7B73AABC /* MBLAccelerometerBMA255MotionEvent.h */,
-				B17FD221BBB477515B29D68EEE5177C2 /* MBLAccelerometerBMI160.h */,
-				139F34EF6F819FD03AD728F6212F28CB /* MBLAccelerometerBMI160MotionEvent.h */,
-				C386378CC66F4635D276B51E5D920AFE /* MBLAccelerometerBosch.h */,
-				D6026267BCF4FC26B6394385C5AC9605 /* MBLAccelerometerBoschLowOrHighGEvent.h */,
-				D41EE1B3A5EC4853D37D1BF84189A276 /* MBLAccelerometerData.h */,
-				F27519A0B11FD5FFFB37FAD6557172F9 /* MBLAccelerometerMMA8452Q.h */,
-				9246C6A8882D01324977D38E25AE48A0 /* MBLAmbientLight.h */,
-				7123DD4462C4E7CCFCC17027BDE21655 /* MBLAmbientLightLTR329.h */,
-				890541463A7CD046723AA8449173A977 /* MBLANCS.h */,
-				17F636DED5CB353E81F91E5A7ABBA929 /* MBLANCSEventData.h */,
-				B66912111C85E0485FFEAF9C689D8467 /* MBLBarometer.h */,
-				5AD449A75CBD99755B78098F34389C0F /* MBLBarometerBME280.h */,
-				89C24EDB1BD6E725492ACC2D36F9DA06 /* MBLBarometerBMP280.h */,
-				75945F6A2B9F221BB750F0863E707C65 /* MBLBarometerBosch.h */,
-				561132089784929776A89FDDD151F7B7 /* MBLConductance.h */,
-				C0D4BCB3B257999BBAF7474E413E6D26 /* MBLConstants.h */,
-				31228BE54E3AA20E1EC780F7A899B693 /* MBLData.h */,
-				4C376BFCF6069821D9E088544299DA09 /* MBLDataSample.h */,
-				C5B64A8AE59E58FA2B5CF81F55C6C6C2 /* MBLDataSwitch.h */,
-				8C443C620D1EC62C98B34DDDB0360EE9 /* MBLDeviceInfo.h */,
-				98CC3FA177FD31D2B2F97A322B535063 /* MBLEntityEvent.h */,
-				98F60A641A1E983366A38E0F6503F2D7 /* MBLEntityModule.h */,
-				AC5CA402A9B944367122D0886F965FF4 /* MBLEvent.h */,
-				4EDA3E75A93CBA496CC5EBD39477E258 /* MBLExternalThermistor.h */,
-				3E7A2B5DAAA2A256E2A961D657781F14 /* MBLFilter.h */,
-				EE434DE72803378D8330FB3271DA56B8 /* MBLGPIO.h */,
-				8B1211C7F4BAE7A5B7AD1BC06C1894EA /* MBLGPIOPin.h */,
-				1CE3D00C12DC2DDCDBF6C49E5B79EC68 /* MBLGyro.h */,
-				15B35C40CF33CB3A5AC9E15F2FE3456D /* MBLGyroBMI160.h */,
-				3278AB996696326032BFAE184BD24762 /* MBLGyroData.h */,
-				C514DECEAE0D0FADD30E6F603D1A3753 /* MBLHapticBuzzer.h */,
-				ED185E3F940E041DEE31D97525456A22 /* MBLHygrometer.h */,
-				7254EC5991A782BE317F5E22824A9652 /* MBLHygrometerBME280.h */,
-				03BDFC7E63F8B7A31F85978968628529 /* MBLI2C.h */,
-				39FB2BE2CCA51FD105D2D7C3D70FE8ED /* MBLI2CData.h */,
-				89E4514DEF61E835DA6B673047BA2146 /* MBLiBeacon.h */,
-				4700B2E694C2A229B2D1A51BA81CE969 /* MBLLED.h */,
-				4DFC69FAAA7F653D46343A056A2BF9E2 /* MBLMagnetometer.h */,
-				72D82899C4D8F47DC5EA3D5960A46206 /* MBLMagnetometerBMM150.h */,
-				2B9BA367CE7EAF2597511A1C8F13AE58 /* MBLMagnetometerData.h */,
-				06401EA33F2BF1D45D98B7404414D845 /* MBLMechanicalSwitch.h */,
-				0150590D7FABB73A4DF26C4301009DCA /* MBLMetaWear.h */,
-				8014BAE2819B0775DF0EED3824214EF6 /* MBLMetaWearManager.h */,
-				209EDF714612893ECE434CE172D6B7CA /* MBLModule.h */,
-				04A0B2ACB600685403987BFD7735A5D1 /* MBLNeopixel.h */,
-				9C461690C64B34209D6F33BA794B670B /* MBLNeopixelStrand.h */,
-				0C7717C72F79B35B1DDAF060D5F537B2 /* MBLNumericData.h */,
-				C1540A79049261EB504A40827704751C /* MBLOrientationData.h */,
-				B6427D6EDE94265CD45B78CB153621C5 /* MBLPhotometer.h */,
-				A08FF831E8936B05513BEBF43909BFA7 /* MBLPhotometerTCS3472.h */,
-				94785B7183BC5A6A1E66C6FBA22B10D4 /* MBLProximity.h */,
-				D78D9AC2DB6D8ECCE5C54E93F2D4F5DE /* MBLProximityTSL2671.h */,
-				EF5D5160E16A3C852040049156827745 /* MBLRegister.h */,
-				A2D3BC72D1517AE74E04C2F04FF502FF /* MBLRGBData.h */,
-				01A3F44B2D9BB398DB68C65FC3357C08 /* MBLRMSAccelerometerData.h */,
-				C3014FFF7F7F22E92D7EBFCC776C2179 /* MBLSettings.h */,
-				CF5545A099E75B2EEDAA3FDB6FC6368E /* MBLStringData.h */,
-				F8A81A86F525C549A91EF9B681BB6E16 /* MBLTemperature.h */,
-				E747B5E13828D28BF315CA2D6A8B9632 /* MBLTimer.h */,
-				CA3FFB0ADC89E0E9326DFE176C4CF533 /* MBLTimerEvent.h */,
-				53425AA78DADC796A369F652E90E76DF /* MetaWear.h */,
-				D607BCDB13CFDDE738E248C29ECF8DCF /* Frameworks */,
-			);
-			path = "Metawear-iOSAPI";
-			sourceTree = "<group>";
-		};
-		D607BCDB13CFDDE738E248C29ECF8DCF /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-				17D1030308A2DC449E3A30F12F973A4D /* MetaWear.framework */,
-			);
-			name = Frameworks;
-			sourceTree = "<group>";
-		};
-		D696F332CCC6415441DCB75BBCC56F04 /* Pods */ = {
-			isa = PBXGroup;
-			children = (
-				5C52FD506E0D1D0C376263E680E9466D /* Bolts */,
-				C70060566462AEB0BEE1B51AA5948E6E /* FastCoding */,
-				2C711509E7F05A063CD874F4C3E713B1 /* MBProgressHUD */,
-				D47BDC79E78734673B6B28FAC9843A45 /* Metawear-iOSAPI */,
-			);
-			name = Pods;
-			sourceTree = "<group>";
-		};
-		E96DEF8025064901DAA93853D55793DA /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				895240404BE6448F03B1044318989747 /* Bolts.xcconfig */,
-				E64C2345CF2698627D368F1899540142 /* Bolts-dummy.m */,
-				F34DC0DAA7AA3D7185AD05ED33104598 /* Bolts-prefix.pch */,
+				A8BE2049E36304BD67A7EECDDD0A499B /* MBProgressHUD.xcconfig */,
+				710D4A6F2CC9EC22AAB0AF6DECF9324C /* MBProgressHUD-dummy.m */,
+				1068BF1FE6E34859E2F21F74CD9090B3 /* MBProgressHUD-prefix.pch */,
 			);
 			name = "Support Files";
-			path = "../Target Support Files/Bolts";
+			path = "../Target Support Files/MBProgressHUD";
+			sourceTree = "<group>";
+		};
+		D8D91C9B57B136BA9F0E185FC75C61A5 /* MBProgressHUD */ = {
+			isa = PBXGroup;
+			children = (
+				9EA4BDB12CEA0FA4B632A1DA9BC392B6 /* MBProgressHUD.h */,
+				F63C086FEBDAEC77152467E2240BA1A9 /* MBProgressHUD.m */,
+				D704251F9C035D571D4FD0C060250966 /* Support Files */,
+			);
+			path = MBProgressHUD;
+			sourceTree = "<group>";
+		};
+		DE6D3E3049CA1A6BCA699643F6C3D2FA /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				4498A6B64CB733B03B364007FA6ADA46 /* FastCoding.xcconfig */,
+				D1BA0680F3D97185C63A95138791F958 /* FastCoding-dummy.m */,
+				B5E08E494E6BCC916BD89FAFAF298F71 /* FastCoding-prefix.pch */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/FastCoding";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		1013864E887F60CD6BE50752448C170B /* Headers */ = {
+		A12570E62FB9C189CB98A60B61613FCA /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4D433CC21617167F3EA0823DFD3F64AC /* BFCancellationToken.h in Headers */,
-				740AC457E1413C5968A2414AD51723D5 /* BFCancellationTokenRegistration.h in Headers */,
-				D35AB221E8F39195527A8D48C6630565 /* BFCancellationTokenSource.h in Headers */,
-				C7A112ED74CD5D642BAC8B1AC0FBAF71 /* BFExecutor.h in Headers */,
-				687D841A5038E9ED04A8518C2EFCDD8B /* BFTask.h in Headers */,
-				847EC2B003EF7701223350BAB6C70EDA /* BFTaskCompletionSource.h in Headers */,
-				CC3E31FD1854ABC9DFF867293A9C9F78 /* Bolts.h in Headers */,
+				34B55874A2EA143C38D09155321C6BE5 /* BFCancellationToken.h in Headers */,
+				561039AF85EB33CED933164D0073D957 /* BFCancellationTokenRegistration.h in Headers */,
+				0B8F96873F94A1B86868FBBB86AD77D8 /* BFCancellationTokenSource.h in Headers */,
+				103AACDDC5F274E39C61DE1CAE9FDA05 /* BFExecutor.h in Headers */,
+				371C156B2A88C69C622DFE151BD0AA56 /* BFTask+Exceptions.h in Headers */,
+				0099953A1C6995C5F040F2E6A4F7F4C5 /* BFTask.h in Headers */,
+				3C866D37AFF48BB35D91B13D50B1FF36 /* BFTaskCompletionSource.h in Headers */,
+				CC9CAA2E90DA0309AFE56BEEFBDF42A6 /* Bolts.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -541,11 +556,11 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		EF1C003613925663F17E023C73AF519C /* Headers */ = {
+		D70C2B60AD15BF12091026A33774F9F7 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5EB4F27B76513AE918BA5AE0868E87C8 /* MBProgressHUD.h in Headers */,
+				695A3FA15E903AE48EB0B3BE336F2467 /* MBProgressHUD.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -569,13 +584,13 @@
 			productReference = 02DA4526846CB32677AEB3C108C9FBC8 /* libFastCoding.a */;
 			productType = "com.apple.product-type.library.static";
 		};
-		6095DE398C2BCE7C24317310CA12FDDD /* Bolts */ = {
+		5F9CDF21330F4787AC04D56E0E745343 /* Bolts */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 7CCA58C1399519C316F97329DB1B6DDF /* Build configuration list for PBXNativeTarget "Bolts" */;
+			buildConfigurationList = 5DFA164A5987E37B61D93FBF40BAF2A8 /* Build configuration list for PBXNativeTarget "Bolts" */;
 			buildPhases = (
-				182116A08D15BD397B2DB5C12C22476D /* Sources */,
-				0A13F10224A1DFE36E2AB37182A18176 /* Frameworks */,
-				1013864E887F60CD6BE50752448C170B /* Headers */,
+				D73C8BB080F7BECC015280F795A3BB7F /* Sources */,
+				4931CC2A170E9294C09A920FC2F404BC /* Frameworks */,
+				A12570E62FB9C189CB98A60B61613FCA /* Headers */,
 			);
 			buildRules = (
 			);
@@ -600,6 +615,23 @@
 			name = "Pods-SwiftStarterTests";
 			productName = "Pods-SwiftStarterTests";
 			productReference = 5A883ADC96153E72393E2ADB777EFEA2 /* libPods-SwiftStarterTests.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		D058B89EB3B3DF45457A2DCD3971AFFE /* MBProgressHUD */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1F97048AF18C3EFEDE731BDEECCD58A8 /* Build configuration list for PBXNativeTarget "MBProgressHUD" */;
+			buildPhases = (
+				E9001FCA1D7F025E918399909B4942DA /* Sources */,
+				988FA15379A4032C312C2049FB88101A /* Frameworks */,
+				D70C2B60AD15BF12091026A33774F9F7 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MBProgressHUD;
+			productName = MBProgressHUD;
+			productReference = 508C366395C1AB2EFE37ED0D8093A9F7 /* libMBProgressHUD.a */;
 			productType = "com.apple.product-type.library.static";
 		};
 		F9F285D9109D4F59A24B03E86E585B23 /* Pods-SwiftStarter */ = {
@@ -637,23 +669,6 @@
 			productReference = CCBF6DB8C2873D681E474308F6F0CA77 /* libPods-SwiftStarterUITests.a */;
 			productType = "com.apple.product-type.library.static";
 		};
-		FE2F1D7B9D9FCEA148517E4657B243F4 /* MBProgressHUD */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = F2F5671C4613023EE94A2E62DA06031D /* Build configuration list for PBXNativeTarget "MBProgressHUD" */;
-			buildPhases = (
-				098439AB598DDF1AF51146A2E3E2E562 /* Sources */,
-				E81C08F5CCC0A5FBFF4559E2173164C7 /* Frameworks */,
-				EF1C003613925663F17E023C73AF519C /* Headers */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-			);
-			name = MBProgressHUD;
-			productName = MBProgressHUD;
-			productReference = 508C366395C1AB2EFE37ED0D8093A9F7 /* libMBProgressHUD.a */;
-			productType = "com.apple.product-type.library.static";
-		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -675,9 +690,9 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				6095DE398C2BCE7C24317310CA12FDDD /* Bolts */,
+				5F9CDF21330F4787AC04D56E0E745343 /* Bolts */,
 				0E63E8E2BC4E15BB676B14B1DFA7B20D /* FastCoding */,
-				FE2F1D7B9D9FCEA148517E4657B243F4 /* MBProgressHUD */,
+				D058B89EB3B3DF45457A2DCD3971AFFE /* MBProgressHUD */,
 				F9F285D9109D4F59A24B03E86E585B23 /* Pods-SwiftStarter */,
 				910B828743357CFDCF679800FCC1608D /* Pods-SwiftStarterTests */,
 				FC1E487F715C4D557C2ECCE0565A8594 /* Pods-SwiftStarterUITests */,
@@ -686,30 +701,6 @@
 /* End PBXProject section */
 
 /* Begin PBXSourcesBuildPhase section */
-		098439AB598DDF1AF51146A2E3E2E562 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				FC214077677D4F02E03C6C85F774E028 /* MBProgressHUD-dummy.m in Sources */,
-				82FC12F67E83874B93592218E9FB4CA0 /* MBProgressHUD.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		182116A08D15BD397B2DB5C12C22476D /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				281C6952631E14E80D15714D12894122 /* BFCancellationToken.m in Sources */,
-				EC60CCD803B4BBD7C5D6E4EA9B4015C3 /* BFCancellationTokenRegistration.m in Sources */,
-				9628C08D2025BCDCC98B022D439C0E1D /* BFCancellationTokenSource.m in Sources */,
-				FB5A4DBBC067C9F52907D067D56FC361 /* BFExecutor.m in Sources */,
-				C563B8B74F9C59D0FD725AE4427B55B6 /* BFTask.m in Sources */,
-				3EBD0CF2234FEA7BDECAF72FC576BC02 /* BFTaskCompletionSource.m in Sources */,
-				4287C19EEA870D344A54F233090E23A8 /* Bolts-dummy.m in Sources */,
-				E2F885F53CD632015F7248CE886275E7 /* Bolts.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		295775FA085F345E55F580D318B5FD58 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -743,19 +734,44 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		D73C8BB080F7BECC015280F795A3BB7F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				726E5A8E19EC9EFF09A067E4D3F53B63 /* BFCancellationToken.m in Sources */,
+				8F8D552B1B00AC296B2097505781B3D4 /* BFCancellationTokenRegistration.m in Sources */,
+				47225334CC5DBC4D5E3EAD00A71D1804 /* BFCancellationTokenSource.m in Sources */,
+				9AC8DD5E4DCEA2F30D25BE866287BF45 /* BFExecutor.m in Sources */,
+				790AB5767EF04EA40E8EF6C455CCF3B8 /* BFTask+Exceptions.m in Sources */,
+				A96582D4171204D5B29A6FD84D330C9F /* BFTask.m in Sources */,
+				32668748A529717B6758AA24BE8890D3 /* BFTaskCompletionSource.m in Sources */,
+				486A4A2F9E6E413DCB3BDA8CE51B92A2 /* Bolts-dummy.m in Sources */,
+				8F7CE50FC43EFDC632BA5D6E22448F37 /* Bolts.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E9001FCA1D7F025E918399909B4942DA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				648E7F45D6E4DCE98EED9D4E2F003C1E /* MBProgressHUD-dummy.m in Sources */,
+				CCA9C08C9CBDE367B7BB38B6C0547B94 /* MBProgressHUD.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
 		4D4806589C90BF9BB511F5E688C7CA2C /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = MBProgressHUD;
-			target = FE2F1D7B9D9FCEA148517E4657B243F4 /* MBProgressHUD */;
+			target = D058B89EB3B3DF45457A2DCD3971AFFE /* MBProgressHUD */;
 			targetProxy = F1A54763A1AFC1B19DB2B5BB239171A1 /* PBXContainerItemProxy */;
 		};
 		87BDB95574A8E1D2E159CBBB130BC5A5 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = Bolts;
-			target = 6095DE398C2BCE7C24317310CA12FDDD /* Bolts */;
+			target = 5F9CDF21330F4787AC04D56E0E745343 /* Bolts */;
 			targetProxy = 84D5DA43825EF21FAA8AB802C7DDD4C9 /* PBXContainerItemProxy */;
 		};
 		D2C99768FE667AC2A0D9E3387A798E52 /* PBXTargetDependency */ = {
@@ -767,6 +783,27 @@
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
+		099B40E3CE380DB896034C9A1505BB6D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5FCA5CB193FE5B3B070501B54C8B63C2 /* Bolts.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Bolts/Bolts-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
 		1713F6352B821219A9824CB6E2427501 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 90D87A3F105B34D98CC5FB8335EBEBD8 /* Pods-SwiftStarterUITests.debug.xcconfig */;
@@ -788,16 +825,16 @@
 			};
 			name = Debug;
 		};
-		1F1DCE74980303898CB8238C0E8709EE /* Release */ = {
+		1AFA89153325A09AD73AD0F15FE4EC4E /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 3B7E8DDEBD38FCE8DB93DA8F291CDCE9 /* MBProgressHUD.xcconfig */;
+			baseConfigurationReference = A8BE2049E36304BD67A7EECDDD0A499B /* MBProgressHUD.xcconfig */;
 			buildSettings = {
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_PREFIX_HEADER = "Target Support Files/MBProgressHUD/MBProgressHUD-prefix.pch";
-				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				OTHER_LDFLAGS = "";
 				OTHER_LIBTOOLFLAGS = "";
@@ -851,6 +888,27 @@
 			};
 			name = Debug;
 		};
+		37F482AB348320CB7A8D182A876E5B25 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5FCA5CB193FE5B3B070501B54C8B63C2 /* Bolts.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Bolts/Bolts-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
 		47BEF9D903506B003EA5C2B249729489 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -895,7 +953,7 @@
 		};
 		7E24DD714A3E4E290AAE93A45A4ADE96 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = F611B91C1860141030880A2CEB4BB57D /* FastCoding.xcconfig */;
+			baseConfigurationReference = 4498A6B64CB733B03B364007FA6ADA46 /* FastCoding.xcconfig */;
 			buildSettings = {
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
@@ -956,6 +1014,27 @@
 			};
 			name = Release;
 		};
+		9413B669A6203AD71A048A8F824ECDD9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A8BE2049E36304BD67A7EECDDD0A499B /* MBProgressHUD.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/MBProgressHUD/MBProgressHUD-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
 		A0D452B6B6CCDF274B0819FDAAC51DD1 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 0C109716CBE8B592169893524B41E342 /* Pods-SwiftStarter.debug.xcconfig */;
@@ -976,27 +1055,6 @@
 				SKIP_INSTALL = YES;
 			};
 			name = Debug;
-		};
-		A3B1B4CF4B84336B45C78208334EF0E6 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 895240404BE6448F03B1044318989747 /* Bolts.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_NO_COMMON_BLOCKS = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/Bolts/Bolts-prefix.pch";
-				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
-				MTL_ENABLE_DEBUG_INFO = NO;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PRIVATE_HEADERS_FOLDER_PATH = "";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				PUBLIC_HEADERS_FOLDER_PATH = "";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-			};
-			name = Release;
 		};
 		AAF678CED40D3499169D10F63CA0719E /* Release */ = {
 			isa = XCBuildConfiguration;
@@ -1036,51 +1094,9 @@
 			};
 			name = Release;
 		};
-		C14E31B42496EF5C34C9BF2D27E11E2C /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 3B7E8DDEBD38FCE8DB93DA8F291CDCE9 /* MBProgressHUD.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				DEBUG_INFORMATION_FORMAT = dwarf;
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_NO_COMMON_BLOCKS = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/MBProgressHUD/MBProgressHUD-prefix.pch";
-				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
-				MTL_ENABLE_DEBUG_INFO = YES;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PRIVATE_HEADERS_FOLDER_PATH = "";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				PUBLIC_HEADERS_FOLDER_PATH = "";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-			};
-			name = Debug;
-		};
-		CA390A6B74ABB83EEB00BDFFC5403CB7 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 895240404BE6448F03B1044318989747 /* Bolts.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				DEBUG_INFORMATION_FORMAT = dwarf;
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_NO_COMMON_BLOCKS = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/Bolts/Bolts-prefix.pch";
-				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
-				MTL_ENABLE_DEBUG_INFO = YES;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PRIVATE_HEADERS_FOLDER_PATH = "";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				PUBLIC_HEADERS_FOLDER_PATH = "";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-			};
-			name = Debug;
-		};
 		FBBC003B7C626B782B8C2DEA0900BFEC /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = F611B91C1860141030880A2CEB4BB57D /* FastCoding.xcconfig */;
+			baseConfigurationReference = 4498A6B64CB733B03B364007FA6ADA46 /* FastCoding.xcconfig */;
 			buildSettings = {
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				DEBUG_INFORMATION_FORMAT = dwarf;
@@ -1111,6 +1127,15 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
+		1F97048AF18C3EFEDE731BDEECCD58A8 /* Build configuration list for PBXNativeTarget "MBProgressHUD" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9413B669A6203AD71A048A8F824ECDD9 /* Debug */,
+				1AFA89153325A09AD73AD0F15FE4EC4E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		27BAF56719164B3B2162E674C1EAF7A7 /* Build configuration list for PBXNativeTarget "FastCoding" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
@@ -1129,11 +1154,11 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		7CCA58C1399519C316F97329DB1B6DDF /* Build configuration list for PBXNativeTarget "Bolts" */ = {
+		5DFA164A5987E37B61D93FBF40BAF2A8 /* Build configuration list for PBXNativeTarget "Bolts" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				CA390A6B74ABB83EEB00BDFFC5403CB7 /* Debug */,
-				A3B1B4CF4B84336B45C78208334EF0E6 /* Release */,
+				099B40E3CE380DB896034C9A1505BB6D /* Debug */,
+				37F482AB348320CB7A8D182A876E5B25 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -1152,15 +1177,6 @@
 			buildConfigurations = (
 				3186BC0CADE28BD083A657863FEBF85B /* Debug */,
 				8BA4572D286A9389E6C9C91BE61874ED /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		F2F5671C4613023EE94A2E62DA06031D /* Build configuration list for PBXNativeTarget "MBProgressHUD" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				C14E31B42496EF5C34C9BF2D27E11E2C /* Debug */,
-				1F1DCE74980303898CB8238C0E8709EE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
