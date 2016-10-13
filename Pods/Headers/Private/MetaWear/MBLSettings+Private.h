@@ -1,0 +1,1 @@
+../../../MetaWear/MetaWear/Internal/Modules/Settings/MBLSettings+Private.h

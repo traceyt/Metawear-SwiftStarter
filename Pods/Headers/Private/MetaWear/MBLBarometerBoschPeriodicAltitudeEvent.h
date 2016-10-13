@@ -1,0 +1,1 @@
+../../../MetaWear/MetaWear/Internal/Modules/Barometer/BarometerBosch/MBLBarometerBoschPeriodicAltitudeEvent.h

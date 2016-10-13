@@ -2,8 +2,8 @@
 platform :ios, '8.0'
 
 target 'SwiftStarter' do
-pod 'Metawear-iOSAPI'
-pod 'MBProgressHUD'
+  pod 'MetaWear'
+  pod 'MBProgressHUD'
 end
 
 target 'SwiftStarterTests' do

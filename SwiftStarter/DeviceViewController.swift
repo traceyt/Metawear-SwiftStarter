@@ -13,34 +13,34 @@ class DeviceViewController: UIViewController {
     
     var device: MBLMetaWear!
     
-    override func viewWillAppear(animated: Bool) {
+    override func viewWillAppear(_ animated: Bool) {
         super.viewWillAppear(animated);
         
-        device.addObserver(self, forKeyPath: "state", options: NSKeyValueObservingOptions.New, context: nil)
-        device.connectWithHandler { (error: NSError?) -> Void in
+        device.addObserver(self, forKeyPath: "state", options: NSKeyValueObservingOptions.new, context: nil)
+        device.connectAsync().success { _ in
             NSLog("We are connected")
         }
     }
 
-    override func viewWillDisappear(animated: Bool) {
+    override func viewWillDisappear(_ animated: Bool) {
         super.viewWillDisappear(animated)
         
         device.removeObserver(self, forKeyPath: "state")
-        device.disconnectWithHandler(nil)
+        device.disconnectAsync()
     }
     
-    override func observeValueForKeyPath(keyPath: String?, ofObject object: AnyObject?, change: [String : AnyObject]?, context: UnsafeMutablePointer<Void>) {
-        NSOperationQueue.mainQueue().addOperationWithBlock {
+    override func observeValue(forKeyPath keyPath: String?, of object: Any?, change: [NSKeyValueChangeKey : Any]?, context: UnsafeMutableRawPointer?) {
+        OperationQueue.main.addOperation {
             switch (self.device.state) {
-            case .Connected:
+            case .connected:
                 self.deviceStatus.text = "Connected";
-            case .Connecting:
+            case .connecting:
                 self.deviceStatus.text = "Connecting";
-            case .Disconnected:
+            case .disconnected:
                 self.deviceStatus.text = "Disconnected";
-            case .Disconnecting:
+            case .disconnecting:
                 self.deviceStatus.text = "Disconnecting";
-            case .Discovery:
+            case .discovery:
                 self.deviceStatus.text = "Discovery";
             }
         }

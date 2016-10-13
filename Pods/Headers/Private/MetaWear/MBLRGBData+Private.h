@@ -1,0 +1,1 @@
+../../../MetaWear/MetaWear/Internal/Modules/Photometer/MBLRGBData+Private.h

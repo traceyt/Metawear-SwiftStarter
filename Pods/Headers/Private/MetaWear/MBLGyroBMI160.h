@@ -1,0 +1,1 @@
+../../../MetaWear/MetaWear/Classes/Modules/Gyro/GyroBMI160/MBLGyroBMI160.h

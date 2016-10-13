@@ -1,0 +1,1 @@
+../../../MetaWear/MetaWear/Internal/Core/MBLMetaWear+Private.h

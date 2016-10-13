@@ -1,0 +1,1 @@
+../../../MetaWear/MetaWear/Internal/Modules/Timer/MBLTimerEvent+Private.h

@@ -1,0 +1,1 @@
+../../../MetaWear/MetaWear/Internal/Modules/Gyro/MBLGyroData+Private.h

@@ -1,0 +1,1 @@
+../../../MetaWear/MetaWear/Internal/Modules/Accelerometer/MBLRMSAccelerometerData+Private.h

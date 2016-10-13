@@ -1,0 +1,1 @@
+../../../MetaWear/MetaWear/Internal/Modules/Accelerometer/MMA8452Q/mma8452q.h

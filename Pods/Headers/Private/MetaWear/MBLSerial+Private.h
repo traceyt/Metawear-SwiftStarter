@@ -1,0 +1,1 @@
+../../../MetaWear/MetaWear/Internal/Modules/Serial/MBLSerial+Private.h

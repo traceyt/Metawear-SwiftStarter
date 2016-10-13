@@ -1,0 +1,1 @@
+../../../MetaWear/MetaWear/Internal/Modules/Temperature/MBLTemperature+Private.h

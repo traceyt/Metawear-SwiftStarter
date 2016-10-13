@@ -1,0 +1,1 @@
+../../../MetaWear/MetaWear/Internal/Modules/Logging/MBLLoggingV1.h

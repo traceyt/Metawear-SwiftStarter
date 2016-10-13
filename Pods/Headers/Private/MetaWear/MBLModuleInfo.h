@@ -1,0 +1,1 @@
+../../../MetaWear/MetaWear/Internal/Core/MBLModuleInfo.h

@@ -1,0 +1,1 @@
+../../../MetaWear/MetaWear/Internal/Modules/Barometer/MBLBarometer+Private.h

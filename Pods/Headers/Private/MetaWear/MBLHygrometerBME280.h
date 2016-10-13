@@ -1,0 +1,1 @@
+../../../MetaWear/MetaWear/Classes/Modules/Hygrometer/HygrometerBME280/MBLHygrometerBME280.h

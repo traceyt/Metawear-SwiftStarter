@@ -1,0 +1,1 @@
+../../../MetaWear/MetaWear/Internal/Modules/Magnetometer/MagnetometerBMM150/MBLMagnetometerBMM150PeriodicMagneticFieldEvent.h

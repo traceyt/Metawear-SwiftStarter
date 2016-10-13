@@ -1,0 +1,1 @@
+../../../MetaWear/MetaWear/Internal/Modules/Proximity/MBLProximity+Private.h

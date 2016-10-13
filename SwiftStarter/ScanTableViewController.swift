@@ -8,7 +8,7 @@
 import UIKit
 
 protocol ScanTableViewControllerDelegate {
-    func scanTableViewController(controller: ScanTableViewController, didSelectDevice device: MBLMetaWear)
+    func scanTableViewController(_ controller: ScanTableViewController, didSelectDevice device: MBLMetaWear)
 }
 
 class ScanTableViewController: UITableViewController {
@@ -16,37 +16,37 @@ class ScanTableViewController: UITableViewController {
     var devices: [MBLMetaWear]?
     var selected: MBLMetaWear?
     
-    override func viewWillAppear(animated: Bool) {
+    override func viewWillAppear(_ animated: Bool) {
         super.viewWillAppear(animated);
         
-        MBLMetaWearManager.sharedManager().startScanForMetaWearsAllowDuplicates(true, handler: { (array: [AnyObject]?) -> Void in
+        MBLMetaWearManager.shared().startScan(forMetaWearsAllowDuplicates: true) { array in
             self.devices = array as? [MBLMetaWear]
             self.tableView.reloadData()
-        })
+        }
     }
     
-    override func viewWillDisappear(animated: Bool) {
+    override func viewWillDisappear(_ animated: Bool) {
         super.viewWillDisappear(animated)
         
-        MBLMetaWearManager.sharedManager().stopScanForMetaWears()
+        MBLMetaWearManager.shared().stopScanForMetaWears()
     }
 
     // MARK: - Table view data source
 
-    override func tableView(tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
+    override func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
         if let count = devices?.count {
             return count
         }
         return 0
     }
 
-    override func tableView(tableView: UITableView, cellForRowAtIndexPath indexPath: NSIndexPath) -> UITableViewCell {
-        let cell = tableView.dequeueReusableCellWithIdentifier("MetaWearCell", forIndexPath: indexPath) 
+    override func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
+        let cell = tableView.dequeueReusableCell(withIdentifier: "MetaWearCell", for: indexPath) 
 
         // Configure the cell...
-        if let cur = devices?[indexPath.row] {
+        if let cur = devices?[(indexPath as NSIndexPath).row] {
             let uuid = cell.viewWithTag(1) as! UILabel
-            uuid.text = cur.identifier.UUIDString
+            uuid.text = cur.identifier.uuidString
             
             if let rssiNumber = cur.discoveryTimeRSSI {
                 let rssi = cell.viewWithTag(2) as! UILabel
@@ -54,10 +54,10 @@ class ScanTableViewController: UITableViewController {
             }
             
             let connected = cell.viewWithTag(3) as! UILabel
-            if cur.state == .Connected {
-                connected.hidden = false
+            if cur.state == .connected {
+                connected.isHidden = false
             } else {
-                connected.hidden = true
+                connected.isHidden = true
             }
             
             let name = cell.viewWithTag(4) as! UILabel
@@ -85,36 +85,34 @@ class ScanTableViewController: UITableViewController {
         return cell
     }
 
-    override func tableView(tableView: UITableView, didSelectRowAtIndexPath indexPath: NSIndexPath) {
-        tableView.deselectRowAtIndexPath(indexPath, animated: true)
-        if let selected = devices?[indexPath.row] {
-            let hud = MBProgressHUD.showHUDAddedTo(UIApplication.sharedApplication().keyWindow!, animated: true)
+    override func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
+        tableView.deselectRow(at: indexPath, animated: true)
+        if let selected = devices?[(indexPath as NSIndexPath).row] {
+            let hud = MBProgressHUD.showAdded(to: UIApplication.shared.keyWindow!, animated: true)
             hud.label.text = "Connecting..."
             
             self.selected = selected
-            selected.connectWithTimeout(15, handler: { (error: NSError?) -> Void in
-                if let realError = error {
-                    hud.label.text = realError.localizedDescription
-                    hud.hideAnimated(true, afterDelay: 2.0)
-                } else {
-                    hud.hideAnimated(true)
-                    selected.led?.flashLEDColorAsync(UIColor.greenColor(), withIntensity: 1.0)
-                    
-                    let alert = UIAlertController(title: "Confirm Device", message: "Do you see a blinking green LED on the MetaWear", preferredStyle: UIAlertControllerStyle.Alert)
-                    alert.addAction(UIAlertAction(title: "No", style: .Cancel, handler: { (action: UIAlertAction) -> Void in
-                        selected.led?.setLEDOnAsync(false, withOptions: 1)
-                        selected.disconnectWithHandler(nil)
-                    }))
-                    alert.addAction(UIAlertAction(title: "Yes!", style: .Default, handler: { (action: UIAlertAction) -> Void in
-                        selected.led?.setLEDOnAsync(false, withOptions: 1)
-                        selected.disconnectWithHandler(nil)
-                        if let delegate = self.delegate {
-                            delegate.scanTableViewController(self, didSelectDevice: selected)
-                        }
-                    }))
-                    self.presentViewController(alert, animated: true, completion: nil)
-                }
-            })
+            selected.connect(withTimeoutAsync: 15).success { _ in
+                hud.hide(animated: true)
+                selected.led?.flashColorAsync(UIColor.green, withIntensity: 1.0)
+                
+                let alert = UIAlertController(title: "Confirm Device", message: "Do you see a blinking green LED on the MetaWear", preferredStyle: UIAlertControllerStyle.alert)
+                alert.addAction(UIAlertAction(title: "No", style: .cancel, handler: { (action: UIAlertAction) -> Void in
+                    selected.led?.setLEDOnAsync(false, withOptions: 1)
+                    selected.disconnectAsync()
+                }))
+                alert.addAction(UIAlertAction(title: "Yes!", style: .default, handler: { (action: UIAlertAction) -> Void in
+                    selected.led?.setLEDOnAsync(false, withOptions: 1)
+                    selected.disconnectAsync()
+                    if let delegate = self.delegate {
+                        delegate.scanTableViewController(self, didSelectDevice: selected)
+                    }
+                }))
+                self.present(alert, animated: true, completion: nil)
+            }.failure { error in
+                hud.label.text = error.localizedDescription
+                hud.hide(animated: true, afterDelay: 2.0)
+            }
         }
     }
 }

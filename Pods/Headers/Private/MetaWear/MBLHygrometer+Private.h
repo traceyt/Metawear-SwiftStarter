@@ -1,0 +1,1 @@
+../../../MetaWear/MetaWear/Internal/Modules/Hygrometer/MBLHygrometer+Private.h

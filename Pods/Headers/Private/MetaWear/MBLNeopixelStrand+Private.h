@@ -1,0 +1,1 @@
+../../../MetaWear/MetaWear/Internal/Modules/Neopixel/MBLNeopixelStrand+Private.h

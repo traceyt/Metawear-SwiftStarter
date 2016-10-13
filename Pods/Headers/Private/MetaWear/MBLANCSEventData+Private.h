@@ -1,0 +1,1 @@
+../../../MetaWear/MetaWear/Internal/Modules/ANCS/MBLANCSEventData+Private.h

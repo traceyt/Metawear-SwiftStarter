@@ -1,0 +1,1 @@
+../../../MetaWear/MetaWear/Classes/Modules/Serial/MBLI2CData.h

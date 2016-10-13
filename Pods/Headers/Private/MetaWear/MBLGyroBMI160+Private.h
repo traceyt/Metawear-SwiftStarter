@@ -1,0 +1,1 @@
+../../../MetaWear/MetaWear/Internal/Modules/Gyro/GyroBMI160/MBLGyroBMI160+Private.h

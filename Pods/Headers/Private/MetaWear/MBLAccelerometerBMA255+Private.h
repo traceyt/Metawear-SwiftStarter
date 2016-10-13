@@ -1,0 +1,1 @@
+../../../MetaWear/MetaWear/Internal/Modules/Accelerometer/AccelerometerBosch/AccelerometerBMA255/MBLAccelerometerBMA255+Private.h

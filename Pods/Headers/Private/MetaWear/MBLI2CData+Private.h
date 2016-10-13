@@ -1,0 +1,1 @@
+../../../MetaWear/MetaWear/Internal/Modules/Serial/MBLI2CData+Private.h

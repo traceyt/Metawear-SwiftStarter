@@ -1,0 +1,1 @@
+../../../MetaWear/MetaWear/Internal/Modules/Photometer/PhotometerTCS3472/MBLPhotometerTCS3472Format.h

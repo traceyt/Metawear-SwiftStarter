@@ -1,0 +1,1 @@
+../../../MetaWear/MetaWear/Internal/Modules/GPIO/MBLGPIOPin+Private.h

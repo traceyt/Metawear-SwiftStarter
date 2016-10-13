@@ -1,0 +1,1 @@
+../../../MetaWear/MetaWear/Classes/Modules/Magnetometer/MagnetometerBMM150/MBLMagnetometerBMM150.h

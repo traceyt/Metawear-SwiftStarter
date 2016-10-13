@@ -1,0 +1,1 @@
+../../../MetaWear/MetaWear/Classes/Modules/Accelerometer/AccelerometerBosch/AccelerometerBMA255/MBLAccelerometerBMA255.h

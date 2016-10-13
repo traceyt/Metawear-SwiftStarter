@@ -1,0 +1,1 @@
+../../../MetaWear/MetaWear/Internal/Modules/Magnetometer/MBLMagnetometer+Private.h

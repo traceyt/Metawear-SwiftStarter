@@ -1,0 +1,1 @@
+../../../MetaWear/MetaWear/Classes/Modules/Serial/MBLSPIData.h
